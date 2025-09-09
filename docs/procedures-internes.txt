@@ -1,1 +1,0 @@
-La procédure de déploiement pour la pré-production est d'utiliser le script spécial 'deploy-preprod.sh'.
