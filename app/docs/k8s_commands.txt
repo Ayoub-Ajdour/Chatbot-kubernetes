@@ -1,0 +1,99 @@
+kQuery: show me the pods  
+Command: kubectl get pods
+
+Query: get all pods in the codep-orange namespace  
+Command: kubectl get pods -n codep-orange
+
+Query: delete the pod named my-pod-123  
+Command: kubectl delete pod my-pod-123
+
+Query: how do I scale a deployment?  
+Command: kubectl scale deployment my-deployment --replicas=3
+
+Query: what are the services in the default namespace  
+Command: kubectl get svc -n default
+
+Query: view logs for pod jenkins-orange-65659745d5-4sprj in namespace codep-orange  
+Command: kubectl logs jenkins-orange-65659745d5-4sprj -n codep-orange
+
+Query: list all namespaces  
+Command: kubectl get namespaces
+
+Query: create a namespace called dev  
+Command: kubectl create namespace dev
+
+Query: describe the deployment my-app  
+Command: kubectl describe deployment my-app
+
+Query: apply a configuration from a file named app.yaml  
+Command: kubectl apply -f app.yaml
+
+Query: delete a deployment named my-app  
+Command: kubectl delete deployment my-app
+
+Query: get all deployments in all namespaces  
+Command: kubectl get deployments --all-namespaces
+
+Query: view the current context  
+Command: kubectl config current-context
+
+Query: set the current namespace to dev  
+Command: kubectl config set-context --current --namespace=dev
+
+Query: expose a deployment called nginx-deployment on port 80  
+Command: kubectl expose deployment nginx-deployment --port=80 --type=ClusterIP
+
+Query: edit a service named my-service  
+Command: kubectl edit svc my-service
+
+Query: restart the deployment called backend  
+Command: kubectl rollout restart deployment backend
+
+Query: get the rollout status of frontend deployment  
+Command: kubectl rollout status deployment frontend
+
+Query: view logs of a container named api in pod mypod  
+Command: kubectl logs mypod -c api
+
+Query: execute a shell inside a pod named tools  
+Command: kubectl exec -it tools -- /bin/bash
+
+Query: get the nodes in the cluster  
+Command: kubectl get nodes
+
+Query: label a node named node-1 with role=worker  
+Command: kubectl label node node-1 role=worker
+
+Query: cordon a node named node-2  
+Command: kubectl cordon node-2
+
+Query: drain a node named node-3  
+Command: kubectl drain node-3 --ignore-daemonsets
+
+Query: get configmaps in namespace dev  
+Command: kubectl get configmaps -n dev
+
+Query: get secrets in namespace prod  
+Command: kubectl get secrets -n prod
+
+Query: create a configmap from file config.json  
+Command: kubectl create configmap my-config --from-file=config.json
+
+Query: port-forward service my-service on port 8080  
+Command: kubectl port-forward svc/my-service 8080:80
+
+Query: check resource usage of pods  
+Command: kubectl top pods
+
+Query: get events in the cluster  
+Command: kubectl get events --sort-by=.metadata.creationTimestamp
+
+Query: list all CRDs in the cluster  
+Command: kubectl get crds
+
+Query: get persistent volumes  
+Command: kubectl get pv
+
+Query: get persistent volume claims in namespace codep-orange  
+Command: kubectl get pvc -n codep-orange
+

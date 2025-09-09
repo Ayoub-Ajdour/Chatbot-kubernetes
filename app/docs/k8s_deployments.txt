@@ -1,0 +1,4 @@
+Kubernetes Deployments
+Deployments manage stateless applications in Kubernetes. They ensure a specified number of pod replicas are running.
+To scale a deployment: kubectl scale deployment <name> --replicas=<number> -n <namespace>
+To check rollout status: kubectl rollout status deployment/<name> -n <namespace>

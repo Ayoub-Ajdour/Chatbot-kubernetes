@@ -1,0 +1,1439 @@
+2025-07-06 13:16:40,587 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.20.93.104:5000
+2025-07-06 13:16:40,587 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-06 13:16:40,587 - INFO -  * Restarting with stat
+2025-07-06 13:16:42,434 - WARNING -  * Debugger is active!
+2025-07-06 13:16:42,446 - INFO -  * Debugger PIN: 125-845-480
+2025-07-06 13:20:03,277 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.20.93.104:5000
+2025-07-06 13:20:03,277 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-06 13:20:22,717 - INFO - 172.20.80.1 - - [06/Jul/2025 13:20:22] "GET / HTTP/1.1" 200 -
+2025-07-06 13:20:22,856 - INFO - 172.20.80.1 - - [06/Jul/2025 13:20:22] "GET /static/style.css HTTP/1.1" 200 -
+2025-07-06 13:20:22,858 - INFO - 172.20.80.1 - - [06/Jul/2025 13:20:22] "GET /static/in.png HTTP/1.1" 200 -
+2025-07-06 13:20:22,859 - INFO - 172.20.80.1 - - [06/Jul/2025 13:20:22] "GET /static/ubama.jpg HTTP/1.1" 200 -
+2025-07-06 13:20:23,130 - INFO - 172.20.80.1 - - [06/Jul/2025 13:20:23] "GET /static/script.js HTTP/1.1" 200 -
+2025-07-06 13:20:25,764 - INFO - 172.20.80.1 - - [06/Jul/2025 13:20:25] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-07-06 13:20:30,903 - INFO - User test_user logged in
+2025-07-06 13:20:30,903 - INFO - 172.20.80.1 - - [06/Jul/2025 13:20:30] "POST /login HTTP/1.1" 200 -
+2025-07-06 13:20:30,931 - INFO - Updated context for session local-session-1751804425092: {'action': 'general', 'command': None, 'cluster': None}
+2025-07-06 13:20:30,931 - INFO - Sending prompt to Ollama: hi in cluster default
+2025-07-06 13:20:30,934 - ERROR - Ollama error: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7e72baa0bf80>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2025-07-06 13:20:30,935 - INFO - General response for session local-session-1751804425092: Error: Could not connect to the language model.
+2025-07-06 13:20:30,935 - INFO - 172.20.80.1 - - [06/Jul/2025 13:20:30] "POST /chat HTTP/1.1" 200 -
+2025-07-06 13:21:14,644 - INFO - User test_user logged in
+2025-07-06 13:21:14,645 - INFO - 172.20.80.1 - - [06/Jul/2025 13:21:14] "POST /login HTTP/1.1" 200 -
+2025-07-06 13:21:14,671 - INFO - Updated context for session local-session-1751804425092: {'action': 'general', 'command': None, 'cluster': None}
+2025-07-06 13:21:14,671 - INFO - Sending prompt to Ollama: hola in cluster default
+2025-07-06 13:21:14,674 - ERROR - Ollama error: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7e72b8251940>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2025-07-06 13:21:14,674 - INFO - General response for session local-session-1751804425092: Error: Could not connect to the language model.
+2025-07-06 13:21:14,674 - INFO - 172.20.80.1 - - [06/Jul/2025 13:21:14] "POST /chat HTTP/1.1" 200 -
+2025-07-06 13:37:43,691 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.20.93.104:5000
+2025-07-06 13:37:43,691 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-06 13:37:54,955 - INFO - 172.20.80.1 - - [06/Jul/2025 13:37:54] "GET / HTTP/1.1" 200 -
+2025-07-06 13:37:55,123 - INFO - 172.20.80.1 - - [06/Jul/2025 13:37:55] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-07-06 13:37:55,137 - INFO - 172.20.80.1 - - [06/Jul/2025 13:37:55] "[36mGET /static/ubama.jpg HTTP/1.1[0m" 304 -
+2025-07-06 13:37:55,138 - INFO - 172.20.80.1 - - [06/Jul/2025 13:37:55] "[36mGET /static/in.png HTTP/1.1[0m" 304 -
+2025-07-06 13:37:55,452 - INFO - 172.20.80.1 - - [06/Jul/2025 13:37:55] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2025-07-06 13:38:04,531 - INFO - 172.20.80.1 - - [06/Jul/2025 13:38:04] "GET / HTTP/1.1" 200 -
+2025-07-06 13:38:04,563 - INFO - 172.20.80.1 - - [06/Jul/2025 13:38:04] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-07-06 13:38:04,566 - INFO - 172.20.80.1 - - [06/Jul/2025 13:38:04] "[36mGET /static/in.png HTTP/1.1[0m" 304 -
+2025-07-06 13:38:04,570 - INFO - 172.20.80.1 - - [06/Jul/2025 13:38:04] "[36mGET /static/ubama.jpg HTTP/1.1[0m" 304 -
+2025-07-06 13:38:04,602 - INFO - 172.20.80.1 - - [06/Jul/2025 13:38:04] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2025-07-06 13:38:07,100 - INFO - User test_user logged in
+2025-07-06 13:38:07,100 - INFO - 172.20.80.1 - - [06/Jul/2025 13:38:07] "POST /login HTTP/1.1" 200 -
+2025-07-06 13:38:07,133 - INFO - Updated context for session local-session-1751805484965: {'action': 'k8s_command', 'command': 'kubectl get pods -n default', 'cluster': 'default'}
+2025-07-06 13:38:07,133 - INFO - Updated context for session local-session-1751805484965: {'action': 'k8s_command', 'command': 'kubectl get pods -n default', 'cluster': 'default'}
+2025-07-06 13:38:07,133 - INFO - Pending command: kubectl get pods -n default, cluster: default, session: local-session-1751805484965
+2025-07-06 13:38:07,133 - INFO - 172.20.80.1 - - [06/Jul/2025 13:38:07] "POST /chat HTTP/1.1" 200 -
+2025-07-06 13:38:08,470 - INFO - User test_user logged in
+2025-07-06 13:38:08,470 - INFO - 172.20.80.1 - - [06/Jul/2025 13:38:08] "POST /login HTTP/1.1" 200 -
+2025-07-06 13:38:08,495 - INFO - Received command: kubectl get pods -n default, cluster: default
+2025-07-06 13:38:08,501 - INFO - Executing: ['kubectl', 'get', 'pods', '-n', 'default']
+2025-07-06 13:38:08,919 - INFO - Command output: 
+2025-07-06 13:38:08,919 - INFO - Updated context for session local-session-1751805484965: {'action': 'k8s_command', 'command': 'kubectl get pods -n default', 'cluster': 'default'}
+2025-07-06 13:38:08,919 - INFO - Command executed: kubectl get pods -n default, result: 
+2025-07-06 13:38:08,919 - INFO - 172.20.80.1 - - [06/Jul/2025 13:38:08] "POST /confirm HTTP/1.1" 200 -
+2025-07-06 13:38:19,069 - INFO - User test_user logged in
+2025-07-06 13:38:19,070 - INFO - 172.20.80.1 - - [06/Jul/2025 13:38:19] "POST /login HTTP/1.1" 200 -
+2025-07-06 13:38:19,093 - INFO - Updated context for session local-session-1751805484965: {'action': 'general', 'command': None, 'cluster': None}
+2025-07-06 13:38:19,093 - INFO - Sending prompt to Ollama: affiche ns in cluster default
+2025-07-06 13:38:19,096 - ERROR - Ollama error: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7d6832a520f0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2025-07-06 13:38:19,097 - INFO - General response for session local-session-1751805484965: Error: Could not connect to the language model.
+2025-07-06 13:38:19,098 - INFO - 172.20.80.1 - - [06/Jul/2025 13:38:19] "POST /chat HTTP/1.1" 200 -
+2025-07-06 13:41:34,001 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.20.93.104:5000
+2025-07-06 13:41:34,001 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-06 16:58:47,658 - INFO - Use pytorch device_name: cpu
+2025-07-06 16:58:47,659 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-07-06 16:58:50,424 - WARNING - Created empty docs directory: docs/
+2025-07-06 16:58:50,425 - INFO - Loaded 0 documents from docs/
+2025-07-06 16:58:50,426 - INFO - Split into 0 chunks
+2025-07-06 16:58:50,495 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-07-06 16:58:51,633 - ERROR - Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+2025-07-06 16:58:51,760 - ERROR - Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+2025-07-06 16:58:51,766 - ERROR - Failed to initialize vector store: Expected Embedings to be non-empty list or numpy array, got [] in upsert.
+2025-07-06 17:01:25,397 - INFO - Use pytorch device_name: cpu
+2025-07-06 17:01:25,397 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-07-06 17:01:28,739 - INFO - Loaded 0 documents from docs/
+2025-07-06 17:01:28,740 - INFO - Split into 0 chunks
+2025-07-06 17:01:28,790 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-07-06 17:01:29,934 - ERROR - Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+2025-07-06 17:01:30,002 - ERROR - Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+2025-07-06 17:01:30,007 - ERROR - Failed to initialize vector store: Expected Embedings to be non-empty list or numpy array, got [] in upsert.
+2025-07-06 17:01:30,105 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.20.93.104:5000
+2025-07-06 17:01:30,105 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-06 17:01:38,020 - INFO - 172.20.80.1 - - [06/Jul/2025 17:01:38] "GET / HTTP/1.1" 200 -
+2025-07-06 17:01:38,108 - INFO - 172.20.80.1 - - [06/Jul/2025 17:01:38] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-07-06 17:01:38,110 - INFO - 172.20.80.1 - - [06/Jul/2025 17:01:38] "[36mGET /static/ubama.jpg HTTP/1.1[0m" 304 -
+2025-07-06 17:01:38,114 - INFO - 172.20.80.1 - - [06/Jul/2025 17:01:38] "[36mGET /static/in.png HTTP/1.1[0m" 304 -
+2025-07-06 17:01:38,577 - INFO - 172.20.80.1 - - [06/Jul/2025 17:01:38] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2025-07-06 17:01:41,769 - INFO - User test_user logged in
+2025-07-06 17:01:41,770 - INFO - 172.20.80.1 - - [06/Jul/2025 17:01:41] "POST /login HTTP/1.1" 200 -
+2025-07-06 17:01:41,805 - INFO - Updated context for session local-session-1751817699042: {'action': 'k8s_command', 'command': 'kubectl get pods -n namespace', 'cluster': 'default'}
+2025-07-06 17:01:41,805 - INFO - Updated context for session local-session-1751817699042: {'action': 'k8s_command', 'command': 'kubectl get pods -n namespace', 'cluster': 'default'}
+2025-07-06 17:01:41,806 - INFO - Pending command: kubectl get pods -n namespace, cluster: default, session: local-session-1751817699042
+2025-07-06 17:01:41,806 - INFO - 172.20.80.1 - - [06/Jul/2025 17:01:41] "POST /chat HTTP/1.1" 200 -
+2025-07-06 17:07:25,209 - INFO - Use pytorch device_name: cpu
+2025-07-06 17:07:25,209 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-07-06 17:07:27,632 - INFO - Loaded 0 documents from docs/
+2025-07-06 17:07:27,633 - INFO - Split into 0 chunks
+2025-07-06 17:07:27,697 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-07-06 17:07:28,096 - ERROR - Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+2025-07-06 17:07:28,100 - ERROR - Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+2025-07-06 17:07:28,105 - ERROR - Failed to initialize vector store: Expected Embedings to be non-empty list or numpy array, got [] in upsert.
+2025-07-06 17:07:28,189 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.20.93.104:5000
+2025-07-06 17:07:28,189 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-06 17:07:37,879 - INFO - 172.20.80.1 - - [06/Jul/2025 17:07:37] "GET / HTTP/1.1" 200 -
+2025-07-06 17:07:38,004 - INFO - 172.20.80.1 - - [06/Jul/2025 17:07:38] "[36mGET /static/ubama.jpg HTTP/1.1[0m" 304 -
+2025-07-06 17:07:38,005 - INFO - 172.20.80.1 - - [06/Jul/2025 17:07:38] "[36mGET /static/in.png HTTP/1.1[0m" 304 -
+2025-07-06 17:07:38,007 - INFO - 172.20.80.1 - - [06/Jul/2025 17:07:38] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-07-06 17:07:38,489 - INFO - 172.20.80.1 - - [06/Jul/2025 17:07:38] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2025-07-06 17:07:50,176 - INFO - User test_user logged in
+2025-07-06 17:07:50,176 - INFO - 172.20.80.1 - - [06/Jul/2025 17:07:50] "POST /login HTTP/1.1" 200 -
+2025-07-06 17:07:50,222 - INFO - Updated context for session local-session-1751818058907: {'action': 'k8s_command', 'command': 'kubectl get pods -n codep-orange', 'cluster': 'default'}
+2025-07-06 17:07:50,222 - INFO - Updated context for session local-session-1751818058907: {'action': 'k8s_command', 'command': 'kubectl get pods -n codep-orange', 'cluster': 'default'}
+2025-07-06 17:07:50,222 - INFO - Pending command: kubectl get pods -n codep-orange, cluster: default, session: local-session-1751818058907
+2025-07-06 17:07:50,222 - INFO - 172.20.80.1 - - [06/Jul/2025 17:07:50] "POST /chat HTTP/1.1" 200 -
+2025-07-06 17:07:55,760 - INFO - User test_user logged in
+2025-07-06 17:07:55,761 - INFO - 172.20.80.1 - - [06/Jul/2025 17:07:55] "POST /login HTTP/1.1" 200 -
+2025-07-06 17:07:55,786 - INFO - Updated context for session local-session-1751818058907: {'action': 'k8s_command', 'command': 'kubectl get pods -n codep-orange', 'cluster': 'default'}
+2025-07-06 17:07:55,786 - INFO - Command cancelled: kubectl get pods -n codep-orange
+2025-07-06 17:07:55,787 - INFO - 172.20.80.1 - - [06/Jul/2025 17:07:55] "POST /confirm HTTP/1.1" 200 -
+2025-07-06 17:07:58,586 - INFO - User test_user logged in
+2025-07-06 17:07:58,587 - INFO - 172.20.80.1 - - [06/Jul/2025 17:07:58] "POST /login HTTP/1.1" 200 -
+2025-07-06 17:07:58,615 - INFO - Updated context for session local-session-1751818058907: {'action': 'general', 'command': None, 'cluster': None}
+2025-07-06 17:07:58,615 - ERROR - Vector store not initialized
+2025-07-06 17:07:58,615 - WARNING - Vector store not initialized, returning empty command context
+2025-07-06 17:07:58,626 - INFO - Intent detected: {'action': 'general'}
+2025-07-06 17:08:01,369 - INFO - 172.20.80.1 - - [06/Jul/2025 17:08:01] "GET / HTTP/1.1" 200 -
+2025-07-06 17:08:01,425 - INFO - 172.20.80.1 - - [06/Jul/2025 17:08:01] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-07-06 17:08:01,432 - INFO - 172.20.80.1 - - [06/Jul/2025 17:08:01] "[36mGET /static/ubama.jpg HTTP/1.1[0m" 304 -
+2025-07-06 17:08:01,433 - INFO - 172.20.80.1 - - [06/Jul/2025 17:08:01] "[36mGET /static/in.png HTTP/1.1[0m" 304 -
+2025-07-06 17:08:01,524 - INFO - 172.20.80.1 - - [06/Jul/2025 17:08:01] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2025-07-06 17:08:03,719 - INFO - User test_user logged in
+2025-07-06 17:08:03,720 - INFO - 172.20.80.1 - - [06/Jul/2025 17:08:03] "POST /login HTTP/1.1" 200 -
+2025-07-06 17:08:03,751 - INFO - Updated context for session local-session-1751818081708: {'action': 'general', 'command': None, 'cluster': None}
+2025-07-06 17:08:03,752 - ERROR - Vector store not initialized
+2025-07-06 17:08:03,752 - WARNING - Vector store not initialized, returning empty command context
+2025-07-06 17:08:03,763 - INFO - Intent detected: {'action': 'general'}
+2025-07-06 17:08:07,379 - INFO - 172.20.80.1 - - [06/Jul/2025 17:08:07] "GET / HTTP/1.1" 200 -
+2025-07-06 17:08:07,512 - INFO - 172.20.80.1 - - [06/Jul/2025 17:08:07] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-07-06 17:08:07,529 - INFO - 172.20.80.1 - - [06/Jul/2025 17:08:07] "[36mGET /static/in.png HTTP/1.1[0m" 304 -
+2025-07-06 17:08:07,559 - INFO - 172.20.80.1 - - [06/Jul/2025 17:08:07] "[36mGET /static/ubama.jpg HTTP/1.1[0m" 304 -
+2025-07-06 17:08:08,110 - INFO - 172.20.80.1 - - [06/Jul/2025 17:08:08] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2025-07-06 17:08:13,643 - INFO - User test_user logged in
+2025-07-06 17:08:13,644 - INFO - 172.20.80.1 - - [06/Jul/2025 17:08:13] "POST /login HTTP/1.1" 200 -
+2025-07-06 17:08:13,686 - INFO - Updated context for session local-session-1751818088462: {'action': 'k8s_command', 'command': 'kubectl get pods -n codep-orange', 'cluster': 'x'}
+2025-07-06 17:08:13,686 - INFO - Updated context for session local-session-1751818088462: {'action': 'k8s_command', 'command': 'kubectl get pods -n codep-orange', 'cluster': 'x'}
+2025-07-06 17:08:13,686 - INFO - Pending command: kubectl get pods -n codep-orange, cluster: x, session: local-session-1751818088462
+2025-07-06 17:08:13,687 - INFO - 172.20.80.1 - - [06/Jul/2025 17:08:13] "POST /chat HTTP/1.1" 200 -
+2025-07-06 17:08:24,226 - INFO - User test_user logged in
+2025-07-06 17:08:24,227 - INFO - 172.20.80.1 - - [06/Jul/2025 17:08:24] "POST /login HTTP/1.1" 200 -
+2025-07-06 17:08:24,272 - INFO - Updated context for session local-session-1751818088462: {'action': 'k8s_command', 'command': 'kubectl get pods -n codep-orange', 'cluster': 'e'}
+2025-07-06 17:08:24,272 - INFO - Updated context for session local-session-1751818088462: {'action': 'k8s_command', 'command': 'kubectl get pods -n codep-orange', 'cluster': 'e'}
+2025-07-06 17:08:24,273 - INFO - Pending command: kubectl get pods -n codep-orange, cluster: e, session: local-session-1751818088462
+2025-07-06 17:08:24,274 - INFO - 172.20.80.1 - - [06/Jul/2025 17:08:24] "POST /chat HTTP/1.1" 200 -
+2025-07-06 17:08:31,957 - INFO - User test_user logged in
+2025-07-06 17:08:31,959 - INFO - 172.20.80.1 - - [06/Jul/2025 17:08:31] "POST /login HTTP/1.1" 200 -
+2025-07-06 17:08:31,978 - INFO - Received command: kubectl get pods -n codep-orange, cluster: e
+2025-07-06 17:08:31,978 - ERROR - Invalid cluster: e
+2025-07-06 17:08:31,978 - INFO - Updated context for session local-session-1751818088462: {'action': 'k8s_command', 'command': 'kubectl get pods -n codep-orange', 'cluster': 'e'}
+2025-07-06 17:08:31,978 - INFO - Command executed: kubectl get pods -n codep-orange, result: [91mError: Invalid cluster specified.[0m
+2025-07-06 17:08:31,979 - INFO - 172.20.80.1 - - [06/Jul/2025 17:08:31] "POST /confirm HTTP/1.1" 200 -
+2025-07-06 17:08:40,032 - INFO - User test_user logged in
+2025-07-06 17:08:40,033 - INFO - 172.20.80.1 - - [06/Jul/2025 17:08:40] "POST /login HTTP/1.1" 200 -
+2025-07-06 17:08:40,058 - ERROR - No pending command for session local-session-1751818088462
+2025-07-06 17:08:40,059 - INFO - 172.20.80.1 - - [06/Jul/2025 17:08:40] "POST /confirm HTTP/1.1" 200 -
+2025-07-06 17:09:08,714 - INFO - User test_user logged in
+2025-07-06 17:09:08,715 - INFO - 172.20.80.1 - - [06/Jul/2025 17:09:08] "POST /login HTTP/1.1" 200 -
+2025-07-06 17:09:08,754 - INFO - Updated context for session local-session-1751818088462: {'action': 'k8s_command', 'command': 'kubectl get pods -n default', 'cluster': 'default'}
+2025-07-06 17:09:08,754 - INFO - Updated context for session local-session-1751818088462: {'action': 'k8s_command', 'command': 'kubectl get pods -n default', 'cluster': 'default'}
+2025-07-06 17:09:08,754 - INFO - Pending command: kubectl get pods -n default, cluster: default, session: local-session-1751818088462
+2025-07-06 17:09:08,755 - INFO - 172.20.80.1 - - [06/Jul/2025 17:09:08] "POST /chat HTTP/1.1" 200 -
+2025-07-06 17:09:11,663 - INFO - User test_user logged in
+2025-07-06 17:09:11,664 - INFO - 172.20.80.1 - - [06/Jul/2025 17:09:11] "POST /login HTTP/1.1" 200 -
+2025-07-06 17:09:11,685 - INFO - Updated context for session local-session-1751818088462: {'action': 'k8s_command', 'command': 'kubectl get pods -n default', 'cluster': 'default'}
+2025-07-06 17:09:11,685 - INFO - Command cancelled: kubectl get pods -n default
+2025-07-06 17:09:11,685 - INFO - 172.20.80.1 - - [06/Jul/2025 17:09:11] "POST /confirm HTTP/1.1" 200 -
+2025-07-06 17:09:35,271 - ERROR - Exception on /chat [POST]
+Traceback (most recent call last):
+  File "/home/ayoub/chatbot-k8s-v2/venv/lib/python3.12/site-packages/flask/app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ayoub/chatbot-k8s-v2/venv/lib/python3.12/site-packages/flask/app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ayoub/chatbot-k8s-v2/venv/lib/python3.12/site-packages/flask/app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ayoub/chatbot-k8s-v2/venv/lib/python3.12/site-packages/flask/app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ayoub/chatbot-k8s-v2/venv/lib/python3.12/site-packages/flask_limiter/extension.py", line 1303, in __inner
+    return cast(R, flask.current_app.ensure_sync(obj)(*a, **k))
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ayoub/chatbot-k8s-v2/app/auth.py", line 35, in decorated
+    return f(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^
+  File "/home/ayoub/chatbot-k8s-v2/app/server.py", line 81, in chat
+    response = ask_model(user_input)  # Now uses RAG-augmented prompt
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ayoub/chatbot-k8s-v2/app/bot.py", line 43, in ask_model
+    result = json.loads(response.text)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/json/decoder.py", line 340, in decode
+    raise JSONDecodeError("Extra data", s, end)
+json.decoder.JSONDecodeError: Extra data: line 2 column 1 (char 105)
+2025-07-06 17:09:35,278 - INFO - 172.20.80.1 - - [06/Jul/2025 17:09:35] "[35m[1mPOST /chat HTTP/1.1[0m" 500 -
+2025-07-06 17:10:04,881 - INFO - User test_user logged in
+2025-07-06 17:10:04,882 - INFO - 172.20.80.1 - - [06/Jul/2025 17:10:04] "POST /login HTTP/1.1" 200 -
+2025-07-06 17:10:04,931 - INFO - Updated context for session local-session-1751818088462: {'action': 'k8s_command', 'command': 'kubectl get pods -n codep-orange', 'cluster': 'default'}
+2025-07-06 17:10:04,932 - INFO - Updated context for session local-session-1751818088462: {'action': 'k8s_command', 'command': 'kubectl get pods -n codep-orange', 'cluster': 'default'}
+2025-07-06 17:10:04,932 - INFO - Pending command: kubectl get pods -n codep-orange, cluster: default, session: local-session-1751818088462
+2025-07-06 17:10:04,932 - INFO - 172.20.80.1 - - [06/Jul/2025 17:10:04] "POST /chat HTTP/1.1" 200 -
+2025-07-06 17:10:08,480 - INFO - User test_user logged in
+2025-07-06 17:10:08,481 - INFO - 172.20.80.1 - - [06/Jul/2025 17:10:08] "POST /login HTTP/1.1" 200 -
+2025-07-06 17:10:08,508 - INFO - Received command: kubectl get pods -n codep-orange, cluster: default
+2025-07-06 17:10:08,523 - INFO - Executing: ['kubectl', 'get', 'pods', '-n', 'codep-orange']
+2025-07-06 17:10:09,041 - INFO - Command output: 
+2025-07-06 17:10:09,042 - INFO - Updated context for session local-session-1751818088462: {'action': 'k8s_command', 'command': 'kubectl get pods -n codep-orange', 'cluster': 'default'}
+2025-07-06 17:10:09,042 - INFO - Command executed: kubectl get pods -n codep-orange, result: 
+2025-07-06 17:10:09,042 - INFO - 172.20.80.1 - - [06/Jul/2025 17:10:09] "POST /confirm HTTP/1.1" 200 -
+2025-07-06 17:10:37,587 - ERROR - Exception on /chat [POST]
+Traceback (most recent call last):
+  File "/home/ayoub/chatbot-k8s-v2/venv/lib/python3.12/site-packages/flask/app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ayoub/chatbot-k8s-v2/venv/lib/python3.12/site-packages/flask/app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ayoub/chatbot-k8s-v2/venv/lib/python3.12/site-packages/flask/app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ayoub/chatbot-k8s-v2/venv/lib/python3.12/site-packages/flask/app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ayoub/chatbot-k8s-v2/venv/lib/python3.12/site-packages/flask_limiter/extension.py", line 1303, in __inner
+    return cast(R, flask.current_app.ensure_sync(obj)(*a, **k))
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ayoub/chatbot-k8s-v2/app/auth.py", line 35, in decorated
+    return f(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^
+  File "/home/ayoub/chatbot-k8s-v2/app/server.py", line 81, in chat
+    response = ask_model(user_input)  # Now uses RAG-augmented prompt
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ayoub/chatbot-k8s-v2/app/bot.py", line 43, in ask_model
+    result = json.loads(response.text)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/json/decoder.py", line 340, in decode
+    raise JSONDecodeError("Extra data", s, end)
+json.decoder.JSONDecodeError: Extra data: line 2 column 1 (char 105)
+2025-07-06 17:10:37,589 - INFO - 172.20.80.1 - - [06/Jul/2025 17:10:37] "[35m[1mPOST /chat HTTP/1.1[0m" 500 -
+2025-07-06 17:14:14,330 - INFO - 172.20.80.1 - - [06/Jul/2025 17:14:14] "GET / HTTP/1.1" 200 -
+2025-07-06 17:14:14,392 - INFO - 172.20.80.1 - - [06/Jul/2025 17:14:14] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-07-06 17:14:14,395 - INFO - 172.20.80.1 - - [06/Jul/2025 17:14:14] "[36mGET /static/ubama.jpg HTTP/1.1[0m" 304 -
+2025-07-06 17:14:14,396 - INFO - 172.20.80.1 - - [06/Jul/2025 17:14:14] "[36mGET /static/in.png HTTP/1.1[0m" 304 -
+2025-07-06 17:14:14,878 - INFO - 172.20.80.1 - - [06/Jul/2025 17:14:14] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2025-07-06 17:29:09,160 - INFO - Use pytorch device_name: cpu
+2025-07-06 17:29:09,161 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-07-06 17:29:12,521 - INFO - Loaded 0 documents from docs/
+2025-07-06 17:29:12,522 - INFO - Split into 0 chunks
+2025-07-06 17:29:12,572 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-07-06 17:29:13,684 - ERROR - Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+2025-07-06 17:29:13,767 - ERROR - Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+2025-07-06 17:29:13,776 - ERROR - Failed to initialize vector store: Expected Embedings to be non-empty list or numpy array, got [] in upsert.
+2025-07-06 17:29:13,776 - INFO - Loaded 0 documents from docs/
+2025-07-06 17:29:13,777 - INFO - Split into 0 chunks
+2025-07-06 17:29:13,781 - ERROR - Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+2025-07-06 17:29:13,786 - ERROR - Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+2025-07-06 17:29:13,792 - ERROR - Failed to initialize vector store: Expected Embedings to be non-empty list or numpy array, got [] in upsert.
+2025-07-06 17:29:29,656 - INFO - Use pytorch device_name: cpu
+2025-07-06 17:29:29,656 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-07-06 17:29:32,659 - INFO - Loaded 0 documents from docs/
+2025-07-06 17:29:32,659 - INFO - Split into 0 chunks
+2025-07-06 17:29:32,684 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-07-06 17:29:33,055 - ERROR - Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+2025-07-06 17:29:33,063 - ERROR - Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+2025-07-06 17:29:33,068 - ERROR - Failed to initialize vector store: Expected Embedings to be non-empty list or numpy array, got [] in upsert.
+2025-07-06 17:29:33,210 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.20.93.104:5000
+2025-07-06 17:29:33,211 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-06 17:29:56,458 - INFO - 172.20.80.1 - - [06/Jul/2025 17:29:56] "GET / HTTP/1.1" 200 -
+2025-07-06 17:29:56,591 - INFO - 172.20.80.1 - - [06/Jul/2025 17:29:56] "[36mGET /static/ubama.jpg HTTP/1.1[0m" 304 -
+2025-07-06 17:29:56,592 - INFO - 172.20.80.1 - - [06/Jul/2025 17:29:56] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-07-06 17:29:56,594 - INFO - 172.20.80.1 - - [06/Jul/2025 17:29:56] "[36mGET /static/in.png HTTP/1.1[0m" 304 -
+2025-07-06 17:29:57,046 - INFO - 172.20.80.1 - - [06/Jul/2025 17:29:57] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2025-07-06 17:29:59,430 - INFO - User test_user logged in
+2025-07-06 17:29:59,431 - INFO - 172.20.80.1 - - [06/Jul/2025 17:29:59] "POST /login HTTP/1.1" 200 -
+2025-07-06 17:30:05,145 - ERROR - Exception on /chat [POST]
+Traceback (most recent call last):
+  File "/home/ayoub/chatbot-k8s-v2/venv/lib/python3.12/site-packages/flask/app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ayoub/chatbot-k8s-v2/venv/lib/python3.12/site-packages/flask/app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ayoub/chatbot-k8s-v2/venv/lib/python3.12/site-packages/flask/app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ayoub/chatbot-k8s-v2/venv/lib/python3.12/site-packages/flask/app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ayoub/chatbot-k8s-v2/venv/lib/python3.12/site-packages/flask_limiter/extension.py", line 1303, in __inner
+    return cast(R, flask.current_app.ensure_sync(obj)(*a, **k))
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ayoub/chatbot-k8s-v2/app/auth.py", line 35, in decorated
+    return f(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^
+  File "/home/ayoub/chatbot-k8s-v2/app/server.py", line 66, in chat
+    intent_data = detect_intent(user_input)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ayoub/chatbot-k8s-v2/app/nlp_parser.py", line 211, in detect_intent
+    user_input = correct_typos(user_input.lower().strip())
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ayoub/chatbot-k8s-v2/app/nlp_parser.py", line 66, in correct_typos
+    logging.info(f"Corrected typos: '{text}' -> '{' '.join(corrected)}'")
+    ^^^^^^^
+NameError: name 'logging' is not defined. Did you forget to import 'logging'
+2025-07-06 17:30:05,155 - INFO - 172.20.80.1 - - [06/Jul/2025 17:30:05] "[35m[1mPOST /chat HTTP/1.1[0m" 500 -
+2025-07-06 17:30:10,082 - INFO - User test_user logged in
+2025-07-06 17:30:10,083 - INFO - 172.20.80.1 - - [06/Jul/2025 17:30:10] "POST /login HTTP/1.1" 200 -
+2025-07-06 17:30:14,335 - ERROR - Exception on /chat [POST]
+Traceback (most recent call last):
+  File "/home/ayoub/chatbot-k8s-v2/venv/lib/python3.12/site-packages/flask/app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ayoub/chatbot-k8s-v2/venv/lib/python3.12/site-packages/flask/app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ayoub/chatbot-k8s-v2/venv/lib/python3.12/site-packages/flask/app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ayoub/chatbot-k8s-v2/venv/lib/python3.12/site-packages/flask/app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ayoub/chatbot-k8s-v2/venv/lib/python3.12/site-packages/flask_limiter/extension.py", line 1303, in __inner
+    return cast(R, flask.current_app.ensure_sync(obj)(*a, **k))
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ayoub/chatbot-k8s-v2/app/auth.py", line 35, in decorated
+    return f(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^
+  File "/home/ayoub/chatbot-k8s-v2/app/server.py", line 66, in chat
+    intent_data = detect_intent(user_input)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ayoub/chatbot-k8s-v2/app/nlp_parser.py", line 211, in detect_intent
+    user_input = correct_typos(user_input.lower().strip())
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ayoub/chatbot-k8s-v2/app/nlp_parser.py", line 66, in correct_typos
+    logging.info(f"Corrected typos: '{text}' -> '{' '.join(corrected)}'")
+    ^^^^^^^
+NameError: name 'logging' is not defined. Did you forget to import 'logging'
+2025-07-06 17:30:14,337 - INFO - 172.20.80.1 - - [06/Jul/2025 17:30:14] "[35m[1mPOST /chat HTTP/1.1[0m" 500 -
+2025-07-06 17:31:56,517 - INFO - User test_user logged in
+2025-07-06 17:31:56,517 - INFO - 172.20.80.1 - - [06/Jul/2025 17:31:56] "POST /login HTTP/1.1" 200 -
+2025-07-06 17:32:00,067 - ERROR - Exception on /chat [POST]
+Traceback (most recent call last):
+  File "/home/ayoub/chatbot-k8s-v2/venv/lib/python3.12/site-packages/flask/app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ayoub/chatbot-k8s-v2/venv/lib/python3.12/site-packages/flask/app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ayoub/chatbot-k8s-v2/venv/lib/python3.12/site-packages/flask/app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ayoub/chatbot-k8s-v2/venv/lib/python3.12/site-packages/flask/app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ayoub/chatbot-k8s-v2/venv/lib/python3.12/site-packages/flask_limiter/extension.py", line 1303, in __inner
+    return cast(R, flask.current_app.ensure_sync(obj)(*a, **k))
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ayoub/chatbot-k8s-v2/app/auth.py", line 35, in decorated
+    return f(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^
+  File "/home/ayoub/chatbot-k8s-v2/app/server.py", line 66, in chat
+    intent_data = detect_intent(user_input)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ayoub/chatbot-k8s-v2/app/nlp_parser.py", line 211, in detect_intent
+    user_input = correct_typos(user_input.lower().strip())
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ayoub/chatbot-k8s-v2/app/nlp_parser.py", line 66, in correct_typos
+    logging.info(f"Corrected typos: '{text}' -> '{' '.join(corrected)}'")
+    ^^^^^^^
+NameError: name 'logging' is not defined. Did you forget to import 'logging'
+2025-07-06 17:32:00,073 - INFO - 172.20.80.1 - - [06/Jul/2025 17:32:00] "[35m[1mPOST /chat HTTP/1.1[0m" 500 -
+2025-07-06 18:13:21,525 - INFO - Use pytorch device_name: cpu
+2025-07-06 18:13:21,525 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-07-06 18:13:24,934 - INFO - Loaded 0 documents from docs/
+2025-07-06 18:13:24,935 - INFO - Split into 0 chunks
+2025-07-06 18:13:24,994 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-07-06 18:13:25,513 - ERROR - Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+2025-07-06 18:13:25,519 - ERROR - Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+2025-07-06 18:13:25,524 - ERROR - Failed to initialize vector store: Expected Embedings to be non-empty list or numpy array, got [] in upsert.
+2025-07-06 18:13:25,657 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.20.93.104:5000
+2025-07-06 18:13:25,657 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-06 18:14:02,131 - INFO - 172.20.80.1 - - [06/Jul/2025 18:14:02] "GET / HTTP/1.1" 200 -
+2025-07-06 18:14:02,253 - INFO - 172.20.80.1 - - [06/Jul/2025 18:14:02] "[36mGET /static/ubama.jpg HTTP/1.1[0m" 304 -
+2025-07-06 18:14:02,257 - INFO - 172.20.80.1 - - [06/Jul/2025 18:14:02] "[36mGET /static/in.png HTTP/1.1[0m" 304 -
+2025-07-06 18:14:02,260 - INFO - 172.20.80.1 - - [06/Jul/2025 18:14:02] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-07-06 18:14:02,873 - INFO - 172.20.80.1 - - [06/Jul/2025 18:14:02] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2025-07-06 18:14:09,143 - INFO - User test_user logged in
+2025-07-06 18:14:09,144 - INFO - 172.20.80.1 - - [06/Jul/2025 18:14:09] "POST /login HTTP/1.1" 200 -
+2025-07-06 18:14:15,182 - ERROR - Exception on /chat [POST]
+Traceback (most recent call last):
+  File "/home/ayoub/chatbot-k8s-v2/venv/lib/python3.12/site-packages/flask/app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ayoub/chatbot-k8s-v2/venv/lib/python3.12/site-packages/flask/app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ayoub/chatbot-k8s-v2/venv/lib/python3.12/site-packages/flask/app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ayoub/chatbot-k8s-v2/venv/lib/python3.12/site-packages/flask/app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ayoub/chatbot-k8s-v2/venv/lib/python3.12/site-packages/flask_limiter/extension.py", line 1303, in __inner
+    return cast(R, flask.current_app.ensure_sync(obj)(*a, **k))
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ayoub/chatbot-k8s-v2/app/auth.py", line 35, in decorated
+    return f(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^
+  File "/home/ayoub/chatbot-k8s-v2/app/server.py", line 66, in chat
+    intent_data = detect_intent(user_input)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ayoub/chatbot-k8s-v2/app/nlp_parser.py", line 211, in detect_intent
+    user_input = correct_typos(user_input.lower().strip())
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ayoub/chatbot-k8s-v2/app/nlp_parser.py", line 66, in correct_typos
+    logging.info(f"Corrected typos: '{text}' -> '{' '.join(corrected)}'")
+    ^^^^^^^
+NameError: name 'logging' is not defined. Did you forget to import 'logging'
+2025-07-06 18:14:15,197 - INFO - 172.20.80.1 - - [06/Jul/2025 18:14:15] "[35m[1mPOST /chat HTTP/1.1[0m" 500 -
+2025-07-06 18:16:46,011 - INFO - Use pytorch device_name: cpu
+2025-07-06 18:16:46,011 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-07-06 18:16:50,328 - INFO - Loaded 0 documents from docs/
+2025-07-06 18:16:50,328 - INFO - Split into 0 chunks
+2025-07-06 18:16:50,351 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-07-06 18:16:50,978 - ERROR - Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+2025-07-06 18:16:51,022 - ERROR - Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+2025-07-06 18:16:51,024 - ERROR - Failed to initialize vector store: Expected Embedings to be non-empty list or numpy array, got [] in upsert.
+2025-07-06 18:16:51,024 - INFO - Loaded 0 documents from docs/
+2025-07-06 18:16:51,024 - INFO - Split into 0 chunks
+2025-07-06 18:16:51,026 - ERROR - Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+2025-07-06 18:16:51,028 - ERROR - Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+2025-07-06 18:16:51,031 - ERROR - Failed to initialize vector store: Expected Embedings to be non-empty list or numpy array, got [] in upsert.
+2025-07-06 18:17:56,140 - INFO - Use pytorch device_name: cpu
+2025-07-06 18:17:56,140 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-07-06 18:17:58,622 - INFO - Loaded 0 documents from docs/
+2025-07-06 18:17:58,623 - INFO - Split into 0 chunks
+2025-07-06 18:17:58,640 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-07-06 18:17:58,797 - ERROR - Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+2025-07-06 18:17:58,799 - ERROR - Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+2025-07-06 18:17:58,802 - ERROR - Failed to initialize vector store: Expected Embedings to be non-empty list or numpy array, got [] in upsert.
+2025-07-06 18:17:58,844 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.20.93.104:5000
+2025-07-06 18:17:58,845 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-06 18:19:27,249 - INFO - 172.20.80.1 - - [06/Jul/2025 18:19:27] "GET / HTTP/1.1" 200 -
+2025-07-06 18:19:27,314 - INFO - 172.20.80.1 - - [06/Jul/2025 18:19:27] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-07-06 18:19:27,317 - INFO - 172.20.80.1 - - [06/Jul/2025 18:19:27] "[36mGET /static/ubama.jpg HTTP/1.1[0m" 304 -
+2025-07-06 18:19:27,320 - INFO - 172.20.80.1 - - [06/Jul/2025 18:19:27] "[36mGET /static/in.png HTTP/1.1[0m" 304 -
+2025-07-06 18:19:27,775 - INFO - 172.20.80.1 - - [06/Jul/2025 18:19:27] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2025-07-06 18:19:30,582 - INFO - User test_user logged in
+2025-07-06 18:19:30,582 - INFO - 172.20.80.1 - - [06/Jul/2025 18:19:30] "POST /login HTTP/1.1" 200 -
+2025-07-06 18:19:33,562 - ERROR - Exception on /chat [POST]
+Traceback (most recent call last):
+  File "/home/ayoub/chatbot-k8s-v2/venv/lib/python3.12/site-packages/flask/app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ayoub/chatbot-k8s-v2/venv/lib/python3.12/site-packages/flask/app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ayoub/chatbot-k8s-v2/venv/lib/python3.12/site-packages/flask/app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ayoub/chatbot-k8s-v2/venv/lib/python3.12/site-packages/flask/app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ayoub/chatbot-k8s-v2/venv/lib/python3.12/site-packages/flask_limiter/extension.py", line 1303, in __inner
+    return cast(R, flask.current_app.ensure_sync(obj)(*a, **k))
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ayoub/chatbot-k8s-v2/app/auth.py", line 35, in decorated
+    return f(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^
+  File "/home/ayoub/chatbot-k8s-v2/app/server.py", line 66, in chat
+    intent_data = detect_intent(user_input)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ayoub/chatbot-k8s-v2/app/nlp_parser.py", line 211, in detect_intent
+    user_input = correct_typos(user_input.lower().strip())
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ayoub/chatbot-k8s-v2/app/nlp_parser.py", line 66, in correct_typos
+    logging.info(f"Corrected typos: '{text}' -> '{' '.join(corrected)}'")
+    ^^^^^^^
+NameError: name 'logging' is not defined. Did you forget to import 'logging'
+2025-07-06 18:19:33,569 - INFO - 172.20.80.1 - - [06/Jul/2025 18:19:33] "[35m[1mPOST /chat HTTP/1.1[0m" 500 -
+2025-07-06 18:28:02,257 - INFO - Use pytorch device_name: cpu
+2025-07-06 18:28:02,257 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-07-06 18:28:04,658 - INFO - Loaded 0 documents from docs/
+2025-07-06 18:28:04,658 - INFO - Split into 0 chunks
+2025-07-06 18:28:04,684 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-07-06 18:28:05,394 - ERROR - Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+2025-07-06 18:28:05,428 - ERROR - Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+2025-07-06 18:28:05,430 - ERROR - Failed to initialize vector store: Expected Embedings to be non-empty list or numpy array, got [] in upsert.
+2025-07-06 18:28:05,430 - INFO - Loaded 0 documents from docs/
+2025-07-06 18:28:05,430 - INFO - Split into 0 chunks
+2025-07-06 18:28:05,432 - ERROR - Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+2025-07-06 18:28:05,434 - ERROR - Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+2025-07-06 18:28:05,436 - ERROR - Failed to initialize vector store: Expected Embedings to be non-empty list or numpy array, got [] in upsert.
+2025-07-06 18:28:14,392 - INFO - Use pytorch device_name: cpu
+2025-07-06 18:28:14,393 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-07-06 18:28:17,824 - INFO - Loaded 0 documents from docs/
+2025-07-06 18:28:17,824 - INFO - Split into 0 chunks
+2025-07-06 18:28:17,885 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-07-06 18:28:18,293 - ERROR - Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+2025-07-06 18:28:18,302 - ERROR - Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+2025-07-06 18:28:18,307 - ERROR - Failed to initialize vector store: Expected Embedings to be non-empty list or numpy array, got [] in upsert.
+2025-07-06 18:28:18,472 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.20.93.104:5000
+2025-07-06 18:28:18,472 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-06 18:29:08,922 - INFO - 172.20.80.1 - - [06/Jul/2025 18:29:08] "GET / HTTP/1.1" 200 -
+2025-07-06 18:29:09,010 - INFO - 172.20.80.1 - - [06/Jul/2025 18:29:09] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-07-06 18:29:09,012 - INFO - 172.20.80.1 - - [06/Jul/2025 18:29:09] "[36mGET /static/in.png HTTP/1.1[0m" 304 -
+2025-07-06 18:29:09,014 - INFO - 172.20.80.1 - - [06/Jul/2025 18:29:09] "[36mGET /static/ubama.jpg HTTP/1.1[0m" 304 -
+2025-07-06 18:29:09,462 - INFO - 172.20.80.1 - - [06/Jul/2025 18:29:09] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2025-07-06 18:29:18,222 - INFO - User test_user logged in
+2025-07-06 18:29:18,223 - INFO - 172.20.80.1 - - [06/Jul/2025 18:29:18] "POST /login HTTP/1.1" 200 -
+2025-07-06 18:29:20,705 - ERROR - Exception on /chat [POST]
+Traceback (most recent call last):
+  File "/home/ayoub/chatbot-k8s-v2/venv/lib/python3.12/site-packages/flask/app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ayoub/chatbot-k8s-v2/venv/lib/python3.12/site-packages/flask/app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ayoub/chatbot-k8s-v2/venv/lib/python3.12/site-packages/flask/app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ayoub/chatbot-k8s-v2/venv/lib/python3.12/site-packages/flask/app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ayoub/chatbot-k8s-v2/venv/lib/python3.12/site-packages/flask_limiter/extension.py", line 1303, in __inner
+    return cast(R, flask.current_app.ensure_sync(obj)(*a, **k))
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ayoub/chatbot-k8s-v2/app/auth.py", line 35, in decorated
+    return f(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^
+  File "/home/ayoub/chatbot-k8s-v2/app/server.py", line 66, in chat
+    intent_data = detect_intent(user_input)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ayoub/chatbot-k8s-v2/app/nlp_parser.py", line 211, in detect_intent
+    user_input = correct_typos(user_input.lower().strip())
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ayoub/chatbot-k8s-v2/app/nlp_parser.py", line 66, in correct_typos
+    logging.info(f"Corrected typos: '{text}' -> '{' '.join(corrected)}'")
+    ^^^^^^^
+NameError: name 'logging' is not defined. Did you forget to import 'logging'
+2025-07-06 18:29:20,708 - INFO - 172.20.80.1 - - [06/Jul/2025 18:29:20] "[35m[1mPOST /chat HTTP/1.1[0m" 500 -
+2025-07-06 18:30:04,810 - INFO - User test_user logged in
+2025-07-06 18:30:04,811 - INFO - 172.20.80.1 - - [06/Jul/2025 18:30:04] "POST /login HTTP/1.1" 200 -
+2025-07-06 18:30:04,828 - ERROR - Exception on /chat [POST]
+Traceback (most recent call last):
+  File "/home/ayoub/chatbot-k8s-v2/venv/lib/python3.12/site-packages/flask/app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ayoub/chatbot-k8s-v2/venv/lib/python3.12/site-packages/flask/app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ayoub/chatbot-k8s-v2/venv/lib/python3.12/site-packages/flask/app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ayoub/chatbot-k8s-v2/venv/lib/python3.12/site-packages/flask/app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ayoub/chatbot-k8s-v2/venv/lib/python3.12/site-packages/flask_limiter/extension.py", line 1303, in __inner
+    return cast(R, flask.current_app.ensure_sync(obj)(*a, **k))
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ayoub/chatbot-k8s-v2/app/auth.py", line 35, in decorated
+    return f(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^
+  File "/home/ayoub/chatbot-k8s-v2/app/server.py", line 66, in chat
+    intent_data = detect_intent(user_input)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ayoub/chatbot-k8s-v2/app/nlp_parser.py", line 211, in detect_intent
+    user_input = correct_typos(user_input.lower().strip())
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ayoub/chatbot-k8s-v2/app/nlp_parser.py", line 66, in correct_typos
+    logging.info(f"Corrected typos: '{text}' -> '{' '.join(corrected)}'")
+    ^^^^^^^
+NameError: name 'logging' is not defined. Did you forget to import 'logging'
+2025-07-06 18:30:04,833 - INFO - 172.20.80.1 - - [06/Jul/2025 18:30:04] "[35m[1mPOST /chat HTTP/1.1[0m" 500 -
+2025-07-06 18:30:12,142 - INFO - 172.20.80.1 - - [06/Jul/2025 18:30:12] "GET / HTTP/1.1" 200 -
+2025-07-06 18:30:12,206 - INFO - 172.20.80.1 - - [06/Jul/2025 18:30:12] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-07-06 18:30:12,210 - INFO - 172.20.80.1 - - [06/Jul/2025 18:30:12] "[36mGET /static/in.png HTTP/1.1[0m" 304 -
+2025-07-06 18:30:12,213 - INFO - 172.20.80.1 - - [06/Jul/2025 18:30:12] "[36mGET /static/ubama.jpg HTTP/1.1[0m" 304 -
+2025-07-06 18:30:12,313 - INFO - 172.20.80.1 - - [06/Jul/2025 18:30:12] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2025-07-06 18:30:17,877 - INFO - User test_user logged in
+2025-07-06 18:30:17,877 - INFO - 172.20.80.1 - - [06/Jul/2025 18:30:17] "POST /login HTTP/1.1" 200 -
+2025-07-06 18:30:17,897 - ERROR - Exception on /chat [POST]
+Traceback (most recent call last):
+  File "/home/ayoub/chatbot-k8s-v2/venv/lib/python3.12/site-packages/flask/app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ayoub/chatbot-k8s-v2/venv/lib/python3.12/site-packages/flask/app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ayoub/chatbot-k8s-v2/venv/lib/python3.12/site-packages/flask/app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ayoub/chatbot-k8s-v2/venv/lib/python3.12/site-packages/flask/app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ayoub/chatbot-k8s-v2/venv/lib/python3.12/site-packages/flask_limiter/extension.py", line 1303, in __inner
+    return cast(R, flask.current_app.ensure_sync(obj)(*a, **k))
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ayoub/chatbot-k8s-v2/app/auth.py", line 35, in decorated
+    return f(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^
+  File "/home/ayoub/chatbot-k8s-v2/app/server.py", line 66, in chat
+    intent_data = detect_intent(user_input)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ayoub/chatbot-k8s-v2/app/nlp_parser.py", line 211, in detect_intent
+    user_input = correct_typos(user_input.lower().strip())
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ayoub/chatbot-k8s-v2/app/nlp_parser.py", line 66, in correct_typos
+    logging.info(f"Corrected typos: '{text}' -> '{' '.join(corrected)}'")
+    ^^^^^^^
+NameError: name 'logging' is not defined. Did you forget to import 'logging'
+2025-07-06 18:30:17,901 - INFO - 172.20.80.1 - - [06/Jul/2025 18:30:17] "[35m[1mPOST /chat HTTP/1.1[0m" 500 -
+2025-07-06 18:30:27,616 - INFO - User test_user logged in
+2025-07-06 18:30:27,616 - INFO - 172.20.80.1 - - [06/Jul/2025 18:30:27] "POST /login HTTP/1.1" 200 -
+2025-07-06 18:30:30,040 - ERROR - Exception on /chat [POST]
+Traceback (most recent call last):
+  File "/home/ayoub/chatbot-k8s-v2/venv/lib/python3.12/site-packages/flask/app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ayoub/chatbot-k8s-v2/venv/lib/python3.12/site-packages/flask/app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ayoub/chatbot-k8s-v2/venv/lib/python3.12/site-packages/flask/app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ayoub/chatbot-k8s-v2/venv/lib/python3.12/site-packages/flask/app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ayoub/chatbot-k8s-v2/venv/lib/python3.12/site-packages/flask_limiter/extension.py", line 1303, in __inner
+    return cast(R, flask.current_app.ensure_sync(obj)(*a, **k))
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ayoub/chatbot-k8s-v2/app/auth.py", line 35, in decorated
+    return f(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^
+  File "/home/ayoub/chatbot-k8s-v2/app/server.py", line 66, in chat
+    intent_data = detect_intent(user_input)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ayoub/chatbot-k8s-v2/app/nlp_parser.py", line 211, in detect_intent
+    user_input = correct_typos(user_input.lower().strip())
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ayoub/chatbot-k8s-v2/app/nlp_parser.py", line 66, in correct_typos
+    logging.info(f"Corrected typos: '{text}' -> '{' '.join(corrected)}'")
+    ^^^^^^^
+NameError: name 'logging' is not defined. Did you forget to import 'logging'
+2025-07-06 18:30:30,042 - INFO - 172.20.80.1 - - [06/Jul/2025 18:30:30] "[35m[1mPOST /chat HTTP/1.1[0m" 500 -
+2025-07-06 19:08:19,871 - INFO - Use pytorch device_name: cpu
+2025-07-06 19:08:19,872 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-07-06 19:08:22,456 - INFO - Loaded 0 documents from docs/
+2025-07-06 19:08:22,456 - INFO - Split into 0 chunks
+2025-07-06 19:08:22,510 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-07-06 19:08:23,798 - ERROR - Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+2025-07-06 19:08:23,869 - ERROR - Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+2025-07-06 19:08:23,873 - ERROR - Failed to initialize vector store: Expected Embedings to be non-empty list or numpy array, got [] in upsert.
+2025-07-06 19:08:23,873 - INFO - Loaded 0 documents from docs/
+2025-07-06 19:08:23,873 - INFO - Split into 0 chunks
+2025-07-06 19:08:23,875 - ERROR - Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+2025-07-06 19:08:23,876 - ERROR - Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+2025-07-06 19:08:23,878 - ERROR - Failed to initialize vector store: Expected Embedings to be non-empty list or numpy array, got [] in upsert.
+2025-07-06 19:08:31,689 - INFO - Use pytorch device_name: cpu
+2025-07-06 19:08:31,689 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-07-06 19:08:34,165 - INFO - Loaded 0 documents from docs/
+2025-07-06 19:08:34,165 - INFO - Split into 0 chunks
+2025-07-06 19:08:34,185 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-07-06 19:08:34,334 - ERROR - Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+2025-07-06 19:08:34,336 - ERROR - Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+2025-07-06 19:08:34,338 - ERROR - Failed to initialize vector store: Expected Embedings to be non-empty list or numpy array, got [] in upsert.
+2025-07-06 19:08:34,396 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.20.93.104:5000
+2025-07-06 19:08:34,396 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-06 19:08:34,863 - INFO - 127.0.0.1 - - [06/Jul/2025 19:08:34] "GET / HTTP/1.1" 200 -
+2025-07-06 19:08:47,401 - INFO - 172.20.80.1 - - [06/Jul/2025 19:08:47] "GET / HTTP/1.1" 200 -
+2025-07-06 19:08:47,667 - INFO - 172.20.80.1 - - [06/Jul/2025 19:08:47] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-07-06 19:08:47,674 - INFO - 172.20.80.1 - - [06/Jul/2025 19:08:47] "[36mGET /static/in.png HTTP/1.1[0m" 304 -
+2025-07-06 19:08:47,674 - INFO - 172.20.80.1 - - [06/Jul/2025 19:08:47] "[36mGET /static/ubama.jpg HTTP/1.1[0m" 304 -
+2025-07-06 19:08:47,889 - INFO - 172.20.80.1 - - [06/Jul/2025 19:08:47] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2025-07-06 19:08:53,231 - INFO - User test_user logged in
+2025-07-06 19:08:53,232 - INFO - 172.20.80.1 - - [06/Jul/2025 19:08:53] "POST /login HTTP/1.1" 200 -
+2025-07-06 19:08:55,665 - ERROR - Exception on /chat [POST]
+Traceback (most recent call last):
+  File "/home/ayoub/chatbot-k8s-v2/venv/lib/python3.12/site-packages/flask/app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ayoub/chatbot-k8s-v2/venv/lib/python3.12/site-packages/flask/app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ayoub/chatbot-k8s-v2/venv/lib/python3.12/site-packages/flask/app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ayoub/chatbot-k8s-v2/venv/lib/python3.12/site-packages/flask/app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ayoub/chatbot-k8s-v2/venv/lib/python3.12/site-packages/flask_limiter/extension.py", line 1303, in __inner
+    return cast(R, flask.current_app.ensure_sync(obj)(*a, **k))
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ayoub/chatbot-k8s-v2/app/auth.py", line 35, in decorated
+    return f(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^
+  File "/home/ayoub/chatbot-k8s-v2/app/server.py", line 66, in chat
+    intent_data = detect_intent(user_input)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ayoub/chatbot-k8s-v2/app/nlp_parser.py", line 211, in detect_intent
+    user_input = correct_typos(user_input.lower().strip())
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ayoub/chatbot-k8s-v2/app/nlp_parser.py", line 66, in correct_typos
+    logging.info(f"Corrected typos: '{text}' -> '{' '.join(corrected)}'")
+    ^^^^^^^
+NameError: name 'logging' is not defined. Did you forget to import 'logging'
+2025-07-06 19:08:55,669 - INFO - 172.20.80.1 - - [06/Jul/2025 19:08:55] "[35m[1mPOST /chat HTTP/1.1[0m" 500 -
+2025-07-06 19:15:29,338 - INFO - Use pytorch device_name: cpu
+2025-07-06 19:15:29,338 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-07-06 19:15:31,690 - INFO - Loaded 0 documents from docs/
+2025-07-06 19:15:31,690 - INFO - Split into 0 chunks
+2025-07-06 19:15:31,714 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-07-06 19:15:32,384 - ERROR - Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+2025-07-06 19:15:32,432 - ERROR - Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+2025-07-06 19:15:32,435 - ERROR - Failed to initialize vector store: Expected Embedings to be non-empty list or numpy array, got [] in upsert.
+2025-07-06 19:15:32,436 - INFO - Loaded 0 documents from docs/
+2025-07-06 19:15:32,436 - INFO - Split into 0 chunks
+2025-07-06 19:15:32,438 - ERROR - Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+2025-07-06 19:15:32,439 - ERROR - Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+2025-07-06 19:15:32,441 - ERROR - Failed to initialize vector store: Expected Embedings to be non-empty list or numpy array, got [] in upsert.
+2025-07-06 19:27:36,351 - INFO - Use pytorch device_name: cpu
+2025-07-06 19:27:36,352 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-07-06 19:27:39,917 - INFO - Loaded 0 documents from docs/
+2025-07-06 19:27:39,918 - INFO - Split into 0 chunks
+2025-07-06 19:27:39,988 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-07-06 19:27:41,222 - ERROR - Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+2025-07-06 19:27:41,305 - ERROR - Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+2025-07-06 19:27:41,310 - ERROR - Failed to initialize vector store: Expected Embedings to be non-empty list or numpy array, got [] in upsert.
+2025-07-06 19:27:41,311 - INFO - Loaded 0 documents from docs/
+2025-07-06 19:27:41,311 - INFO - Split into 0 chunks
+2025-07-06 19:27:41,317 - ERROR - Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+2025-07-06 19:27:41,321 - ERROR - Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+2025-07-06 19:27:41,326 - ERROR - Failed to initialize vector store: Expected Embedings to be non-empty list or numpy array, got [] in upsert.
+2025-07-06 19:31:30,768 - INFO - Use pytorch device_name: cpu
+2025-07-06 19:31:30,768 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-07-06 19:31:33,667 - WARNING - No .txt documents found in docs/. RAG context will be unavailable.
+2025-07-06 19:31:33,740 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-07-06 19:31:34,991 - ERROR - Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+2025-07-06 19:31:35,077 - ERROR - Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+2025-07-06 19:31:35,460 - WARNING - No .txt documents found in docs/. RAG context will be unavailable.
+2025-07-06 19:31:35,465 - ERROR - Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+2025-07-06 19:31:35,470 - ERROR - Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+2025-07-06 19:36:09,833 - INFO - Use pytorch device_name: cpu
+2025-07-06 19:36:09,833 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-07-06 19:36:12,740 - WARNING - No .txt documents found in docs/. RAG context will be unavailable.
+2025-07-06 19:36:12,798 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-07-06 19:36:13,792 - ERROR - Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+2025-07-06 19:36:13,861 - ERROR - Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+2025-07-06 19:36:13,964 - WARNING - No .txt documents found in docs/. RAG context will be unavailable.
+2025-07-06 19:36:13,969 - ERROR - Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+2025-07-06 19:36:13,973 - ERROR - Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+2025-07-06 19:36:27,369 - INFO - Use pytorch device_name: cpu
+2025-07-06 19:36:27,369 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-07-06 19:36:30,026 - WARNING - No .txt documents found in docs/. RAG context will be unavailable.
+2025-07-06 19:36:30,046 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-07-06 19:36:30,222 - ERROR - Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+2025-07-06 19:36:30,224 - ERROR - Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+2025-07-06 19:36:30,306 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.20.93.104:5000
+2025-07-06 19:36:30,306 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-06 19:39:02,340 - INFO - Use pytorch device_name: cpu
+2025-07-06 19:39:02,340 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-07-06 19:39:07,070 - WARNING - No .txt documents found in docs/. RAG context will be unavailable.
+2025-07-06 19:39:07,130 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-07-06 19:39:08,249 - ERROR - Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+2025-07-06 19:39:08,336 - ERROR - Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+2025-07-06 19:39:08,440 - WARNING - No .txt documents found in docs/. RAG context will be unavailable.
+2025-07-06 19:39:08,445 - ERROR - Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+2025-07-06 19:39:08,450 - ERROR - Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+2025-07-06 19:39:21,611 - INFO - Use pytorch device_name: cpu
+2025-07-06 19:39:21,611 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-07-06 19:39:24,888 - WARNING - No .txt documents found in docs/. RAG context will be unavailable.
+2025-07-06 19:39:24,906 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-07-06 19:39:25,080 - ERROR - Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+2025-07-06 19:39:25,083 - ERROR - Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+2025-07-06 19:39:25,197 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.20.93.104:5000
+2025-07-06 19:39:25,197 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-06 19:39:30,413 - INFO - 127.0.0.1 - - [06/Jul/2025 19:39:30] "GET / HTTP/1.1" 200 -
+2025-07-06 19:40:15,311 - INFO - 172.20.80.1 - - [06/Jul/2025 19:40:15] "GET / HTTP/1.1" 200 -
+2025-07-06 19:40:15,665 - INFO - 172.20.80.1 - - [06/Jul/2025 19:40:15] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-07-06 19:40:15,667 - INFO - 172.20.80.1 - - [06/Jul/2025 19:40:15] "[36mGET /static/ubama.jpg HTTP/1.1[0m" 304 -
+2025-07-06 19:40:15,670 - INFO - 172.20.80.1 - - [06/Jul/2025 19:40:15] "[36mGET /static/in.png HTTP/1.1[0m" 304 -
+2025-07-06 19:40:15,907 - INFO - 172.20.80.1 - - [06/Jul/2025 19:40:15] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2025-07-06 19:40:19,976 - INFO - User test_user logged in
+2025-07-06 19:40:19,977 - INFO - 172.20.80.1 - - [06/Jul/2025 19:40:19] "POST /login HTTP/1.1" 200 -
+2025-07-06 19:40:19,998 - ERROR - Exception on /chat [POST]
+Traceback (most recent call last):
+  File "/home/ayoub/chatbot-k8s-v2/venv/lib/python3.12/site-packages/flask/app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ayoub/chatbot-k8s-v2/venv/lib/python3.12/site-packages/flask/app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ayoub/chatbot-k8s-v2/venv/lib/python3.12/site-packages/flask/app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ayoub/chatbot-k8s-v2/venv/lib/python3.12/site-packages/flask/app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ayoub/chatbot-k8s-v2/venv/lib/python3.12/site-packages/flask_limiter/extension.py", line 1303, in __inner
+    return cast(R, flask.current_app.ensure_sync(obj)(*a, **k))
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ayoub/chatbot-k8s-v2/app/auth.py", line 35, in decorated
+    return f(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^
+  File "/home/ayoub/chatbot-k8s-v2/app/server.py", line 66, in chat
+    intent_data = detect_intent(user_input)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ayoub/chatbot-k8s-v2/app/nlp_parser.py", line 211, in detect_intent
+    user_input = correct_typos(user_input.lower().strip())
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ayoub/chatbot-k8s-v2/app/nlp_parser.py", line 66, in correct_typos
+    logging.info(f"Corrected typos: '{text}' -> '{' '.join(corrected)}'")
+    ^^^^^^^
+NameError: name 'logging' is not defined. Did you forget to import 'logging'
+2025-07-06 19:40:20,004 - INFO - 172.20.80.1 - - [06/Jul/2025 19:40:20] "[35m[1mPOST /chat HTTP/1.1[0m" 500 -
+2025-07-06 19:47:14,686 - INFO - Use pytorch device_name: cpu
+2025-07-06 19:47:14,686 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-07-06 19:47:17,800 - WARNING - No .txt documents found in docs/. RAG context will be unavailable.
+2025-07-06 19:47:17,871 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-07-06 19:47:18,851 - ERROR - Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+2025-07-06 19:47:18,926 - ERROR - Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+2025-07-06 19:47:19,025 - WARNING - No .txt documents found in docs/. RAG context will be unavailable.
+2025-07-06 19:47:19,031 - ERROR - Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+2025-07-06 19:47:19,035 - ERROR - Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+2025-07-06 19:47:27,740 - INFO - Use pytorch device_name: cpu
+2025-07-06 19:47:27,740 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-07-06 19:47:30,208 - WARNING - No .txt documents found in docs/. RAG context will be unavailable.
+2025-07-06 19:47:30,244 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-07-06 19:47:30,568 - ERROR - Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+2025-07-06 19:47:30,570 - ERROR - Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+2025-07-06 19:47:30,658 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.20.93.104:5000
+2025-07-06 19:47:30,659 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-06 19:47:40,062 - INFO - 127.0.0.1 - - [06/Jul/2025 19:47:40] "GET / HTTP/1.1" 200 -
+2025-07-06 19:48:14,877 - INFO - 172.20.80.1 - - [06/Jul/2025 19:48:14] "GET / HTTP/1.1" 200 -
+2025-07-06 19:48:14,953 - INFO - 172.20.80.1 - - [06/Jul/2025 19:48:14] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-07-06 19:48:14,958 - INFO - 172.20.80.1 - - [06/Jul/2025 19:48:14] "[36mGET /static/ubama.jpg HTTP/1.1[0m" 304 -
+2025-07-06 19:48:14,959 - INFO - 172.20.80.1 - - [06/Jul/2025 19:48:14] "[36mGET /static/in.png HTTP/1.1[0m" 304 -
+2025-07-06 19:48:15,348 - INFO - 172.20.80.1 - - [06/Jul/2025 19:48:15] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2025-07-06 19:48:19,084 - INFO - User test_user logged in
+2025-07-06 19:48:19,084 - INFO - 172.20.80.1 - - [06/Jul/2025 19:48:19] "POST /login HTTP/1.1" 200 -
+2025-07-06 19:48:19,168 - ERROR - Failed to send telemetry event CollectionQueryEvent: capture() takes 1 positional argument but 3 were given
+2025-07-06 19:48:19,186 - INFO - Retrieved command context for query 'get pods in cluster default': ...
+2025-07-06 19:48:19,186 - ERROR - Exception on /chat [POST]
+Traceback (most recent call last):
+  File "/home/ayoub/chatbot-k8s-v2/venv/lib/python3.12/site-packages/flask/app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ayoub/chatbot-k8s-v2/venv/lib/python3.12/site-packages/flask/app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ayoub/chatbot-k8s-v2/venv/lib/python3.12/site-packages/flask/app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ayoub/chatbot-k8s-v2/venv/lib/python3.12/site-packages/flask/app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ayoub/chatbot-k8s-v2/venv/lib/python3.12/site-packages/flask_limiter/extension.py", line 1303, in __inner
+    return cast(R, flask.current_app.ensure_sync(obj)(*a, **k))
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ayoub/chatbot-k8s-v2/app/auth.py", line 35, in decorated
+    return f(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^
+  File "/home/ayoub/chatbot-k8s-v2/app/server.py", line 89, in chat
+    intent_data = detect_intent(user_input, command_context=rag_command_context)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ayoub/chatbot-k8s-v2/app/nlp_parser.py", line 211, in detect_intent
+    user_input = correct_typos(user_input.lower().strip())
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ayoub/chatbot-k8s-v2/app/nlp_parser.py", line 66, in correct_typos
+    logging.info(f"Corrected typos: '{text}' -> '{' '.join(corrected)}'")
+    ^^^^^^^
+NameError: name 'logging' is not defined. Did you forget to import 'logging'
+2025-07-06 19:48:19,199 - INFO - 172.20.80.1 - - [06/Jul/2025 19:48:19] "[35m[1mPOST /chat HTTP/1.1[0m" 500 -
+2025-07-06 19:48:29,661 - INFO - User test_user logged in
+2025-07-06 19:48:29,661 - INFO - 172.20.80.1 - - [06/Jul/2025 19:48:29] "POST /login HTTP/1.1" 200 -
+2025-07-06 19:48:29,720 - INFO - Retrieved command context for query 'get pods in cluster default': ...
+2025-07-06 19:48:29,721 - ERROR - Exception on /chat [POST]
+Traceback (most recent call last):
+  File "/home/ayoub/chatbot-k8s-v2/venv/lib/python3.12/site-packages/flask/app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ayoub/chatbot-k8s-v2/venv/lib/python3.12/site-packages/flask/app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ayoub/chatbot-k8s-v2/venv/lib/python3.12/site-packages/flask/app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ayoub/chatbot-k8s-v2/venv/lib/python3.12/site-packages/flask/app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ayoub/chatbot-k8s-v2/venv/lib/python3.12/site-packages/flask_limiter/extension.py", line 1303, in __inner
+    return cast(R, flask.current_app.ensure_sync(obj)(*a, **k))
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ayoub/chatbot-k8s-v2/app/auth.py", line 35, in decorated
+    return f(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^
+  File "/home/ayoub/chatbot-k8s-v2/app/server.py", line 89, in chat
+    intent_data = detect_intent(user_input, command_context=rag_command_context)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ayoub/chatbot-k8s-v2/app/nlp_parser.py", line 211, in detect_intent
+    user_input = correct_typos(user_input.lower().strip())
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ayoub/chatbot-k8s-v2/app/nlp_parser.py", line 66, in correct_typos
+    logging.info(f"Corrected typos: '{text}' -> '{' '.join(corrected)}'")
+    ^^^^^^^
+NameError: name 'logging' is not defined. Did you forget to import 'logging'
+2025-07-06 19:48:29,724 - INFO - 172.20.80.1 - - [06/Jul/2025 19:48:29] "[35m[1mPOST /chat HTTP/1.1[0m" 500 -
+2025-07-07 09:07:20,607 - INFO - Use pytorch device_name: cpu
+2025-07-07 09:07:20,608 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-07-07 09:07:23,728 - WARNING - No .txt documents found in docs/. RAG context will be unavailable.
+2025-07-07 09:07:23,782 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-07-07 09:07:24,442 - ERROR - Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+2025-07-07 09:07:24,478 - ERROR - Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+2025-07-07 09:07:24,697 - WARNING - No .txt documents found in docs/. RAG context will be unavailable.
+2025-07-07 09:07:24,699 - ERROR - Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+2025-07-07 09:07:24,700 - ERROR - Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+2025-07-07 09:15:00,282 - INFO - Use pytorch device_name: cpu
+2025-07-07 09:15:00,282 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-07-07 09:15:03,137 - WARNING - No .txt documents found in docs/. RAG context will be unavailable.
+2025-07-07 09:15:03,167 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-07-07 09:15:03,799 - ERROR - Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+2025-07-07 09:15:03,840 - ERROR - Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+2025-07-07 09:15:03,881 - WARNING - No .txt documents found in docs/. RAG context will be unavailable.
+2025-07-07 09:15:03,883 - ERROR - Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+2025-07-07 09:15:03,885 - ERROR - Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+2025-07-07 09:22:19,836 - INFO - Use pytorch device_name: cpu
+2025-07-07 09:22:19,838 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-07-07 09:22:22,987 - WARNING - No .txt documents found in docs/. RAG context will be unavailable.
+2025-07-07 09:22:23,038 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-07-07 09:22:23,768 - ERROR - Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+2025-07-07 09:22:23,806 - ERROR - Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+2025-07-07 09:22:23,851 - WARNING - No .txt documents found in docs/. RAG context will be unavailable.
+2025-07-07 09:22:23,855 - ERROR - Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+2025-07-07 09:22:23,858 - ERROR - Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+2025-07-07 09:26:05,092 - INFO - Use pytorch device_name: cpu
+2025-07-07 09:26:05,093 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-07-07 09:26:07,913 - WARNING - No .txt documents found in docs/. RAG context will be unavailable.
+2025-07-07 09:26:07,937 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-07-07 09:26:08,504 - ERROR - Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+2025-07-07 09:26:08,549 - ERROR - Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+2025-07-07 09:26:08,593 - WARNING - No .txt documents found in docs/. RAG context will be unavailable.
+2025-07-07 09:26:08,596 - ERROR - Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+2025-07-07 09:26:08,598 - ERROR - Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+2025-07-07 09:30:09,052 - INFO - Use pytorch device_name: cpu
+2025-07-07 09:30:09,052 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-07-07 09:30:11,822 - WARNING - No .txt documents found in docs/. RAG context will be unavailable.
+2025-07-07 09:30:11,850 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-07-07 09:30:12,482 - ERROR - Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+2025-07-07 09:30:12,519 - ERROR - Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+2025-07-07 09:30:12,568 - WARNING - No .txt documents found in docs/. RAG context will be unavailable.
+2025-07-07 09:30:12,570 - ERROR - Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+2025-07-07 09:30:12,571 - ERROR - Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+2025-07-07 09:49:34,410 - INFO - Use pytorch device_name: cpu
+2025-07-07 09:49:34,410 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-07-07 09:49:37,498 - WARNING - No .txt documents found in docs/. RAG context will be unavailable.
+2025-07-07 09:49:37,529 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-07-07 09:49:38,147 - ERROR - Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+2025-07-07 09:49:38,181 - ERROR - Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+2025-07-07 09:49:38,222 - WARNING - No .txt documents found in docs/. RAG context will be unavailable.
+2025-07-07 09:49:38,223 - ERROR - Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+2025-07-07 09:49:38,225 - ERROR - Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+2025-07-07 09:55:38,185 - INFO - Use pytorch device_name: cpu
+2025-07-07 09:55:38,186 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-07-07 09:55:41,113 - WARNING - No .txt documents found in docs/. RAG context will be unavailable.
+2025-07-07 09:55:41,148 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-07-07 09:55:41,810 - ERROR - Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+2025-07-07 09:55:41,847 - ERROR - Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+2025-07-07 09:55:41,898 - WARNING - No .txt documents found in docs/. RAG context will be unavailable.
+2025-07-07 09:55:41,900 - ERROR - Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+2025-07-07 09:55:41,903 - ERROR - Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+2025-07-07 10:28:06,495 - INFO - Use pytorch device_name: cpu
+2025-07-07 10:28:06,496 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-07-07 10:28:10,999 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-07-07 10:28:12,172 - ERROR - Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+2025-07-07 10:28:12,247 - ERROR - Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+2025-07-07 10:28:12,367 - ERROR - Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+2025-07-07 10:28:12,371 - ERROR - Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+2025-07-08 09:15:34,918 - INFO - Use pytorch device_name: cpu
+2025-07-08 09:15:34,919 - INFO - Load pretrained SentenceTransformer: BAAI/bge-m3
+2025-07-08 09:31:01,505 - WARNING - Error while downloading from https://cdn-lfs-us-1.hf.co/repos/23/2c/232ca60237b0bb19bb6c28c5a6c8af79f2e423333a9626aad445543b80fbf31e/b5e0ce3470abf5ef3831aa1bd5553b486803e83251590ab7ff35a117cf6aad38?response-content-disposition=inline%3B+filename*%3DUTF-8%27%27pytorch_model.bin%3B+filename%3D%22pytorch_model.bin%22%3B&response-content-type=application%2Foctet-stream&Expires=1751965159&Policy=eyJTdGF0ZW1lbnQiOlt7IkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc1MTk2NTE1OX19LCJSZXNvdXJjZSI6Imh0dHBzOi8vY2RuLWxmcy11cy0xLmhmLmNvL3JlcG9zLzIzLzJjLzIzMmNhNjAyMzdiMGJiMTliYjZjMjhjNWE2YzhhZjc5ZjJlNDIzMzMzYTk2MjZhYWQ0NDU1NDNiODBmYmYzMWUvYjVlMGNlMzQ3MGFiZjVlZjM4MzFhYTFiZDU1NTNiNDg2ODAzZTgzMjUxNTkwYWI3ZmYzNWExMTdjZjZhYWQzOD9yZXNwb25zZS1jb250ZW50LWRpc3Bvc2l0aW9uPSomcmVzcG9uc2UtY29udGVudC10eXBlPSoifV19&Signature=Kj5ARSDdfceiNWOfru%7EKry%7EIEd2VcqujHdPUuAO4f7atig341cuYWpRJenYNq%7E5vsm4Tf61GIxhmWsf34kuuE6zjiil3vzB59XisetpDW5kk21jkRHSHxsAc7KEnR9SvuiYEiOlBt782B%7Ev5H3ioNEuk0Di1n%7EJRFZOyO6BZX0XP%7EpPNCLgdSDldnnrl1PT%7ECZTgcJWMnRbknCrRWQV4XY8-rVsE61p3ryFXT0oFTequbyjT6vXy31xu7pgZuqMC7WcEWdBRbz5jiB0f8dYfX3Gs2bSN1nPNH2987w31xpaARrchvE9eHrTO3osktz5ILLbrLCZlujPJd-XoH8TyxQ__&Key-Pair-Id=K24J24Z295AEI9: HTTPSConnectionPool(host='cdn-lfs-us-1.hf.co', port=443): Read timed out.
+Trying to resume download...
+2025-07-08 09:41:19,166 - WARNING - Error while downloading from https://cdn-lfs-us-1.hf.co/repos/23/2c/232ca60237b0bb19bb6c28c5a6c8af79f2e423333a9626aad445543b80fbf31e/b5e0ce3470abf5ef3831aa1bd5553b486803e83251590ab7ff35a117cf6aad38?response-content-disposition=inline%3B+filename*%3DUTF-8%27%27pytorch_model.bin%3B+filename%3D%22pytorch_model.bin%22%3B&response-content-type=application%2Foctet-stream&Expires=1751965159&Policy=eyJTdGF0ZW1lbnQiOlt7IkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc1MTk2NTE1OX19LCJSZXNvdXJjZSI6Imh0dHBzOi8vY2RuLWxmcy11cy0xLmhmLmNvL3JlcG9zLzIzLzJjLzIzMmNhNjAyMzdiMGJiMTliYjZjMjhjNWE2YzhhZjc5ZjJlNDIzMzMzYTk2MjZhYWQ0NDU1NDNiODBmYmYzMWUvYjVlMGNlMzQ3MGFiZjVlZjM4MzFhYTFiZDU1NTNiNDg2ODAzZTgzMjUxNTkwYWI3ZmYzNWExMTdjZjZhYWQzOD9yZXNwb25zZS1jb250ZW50LWRpc3Bvc2l0aW9uPSomcmVzcG9uc2UtY29udGVudC10eXBlPSoifV19&Signature=Kj5ARSDdfceiNWOfru%7EKry%7EIEd2VcqujHdPUuAO4f7atig341cuYWpRJenYNq%7E5vsm4Tf61GIxhmWsf34kuuE6zjiil3vzB59XisetpDW5kk21jkRHSHxsAc7KEnR9SvuiYEiOlBt782B%7Ev5H3ioNEuk0Di1n%7EJRFZOyO6BZX0XP%7EpPNCLgdSDldnnrl1PT%7ECZTgcJWMnRbknCrRWQV4XY8-rVsE61p3ryFXT0oFTequbyjT6vXy31xu7pgZuqMC7WcEWdBRbz5jiB0f8dYfX3Gs2bSN1nPNH2987w31xpaARrchvE9eHrTO3osktz5ILLbrLCZlujPJd-XoH8TyxQ__&Key-Pair-Id=K24J24Z295AEI9: HTTPSConnectionPool(host='cdn-lfs-us-1.hf.co', port=443): Read timed out.
+Trying to resume download...
+2025-07-08 09:49:29,871 - WARNING - Error while downloading from https://cdn-lfs-us-1.hf.co/repos/23/2c/232ca60237b0bb19bb6c28c5a6c8af79f2e423333a9626aad445543b80fbf31e/b5e0ce3470abf5ef3831aa1bd5553b486803e83251590ab7ff35a117cf6aad38?response-content-disposition=inline%3B+filename*%3DUTF-8%27%27pytorch_model.bin%3B+filename%3D%22pytorch_model.bin%22%3B&response-content-type=application%2Foctet-stream&Expires=1751965159&Policy=eyJTdGF0ZW1lbnQiOlt7IkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc1MTk2NTE1OX19LCJSZXNvdXJjZSI6Imh0dHBzOi8vY2RuLWxmcy11cy0xLmhmLmNvL3JlcG9zLzIzLzJjLzIzMmNhNjAyMzdiMGJiMTliYjZjMjhjNWE2YzhhZjc5ZjJlNDIzMzMzYTk2MjZhYWQ0NDU1NDNiODBmYmYzMWUvYjVlMGNlMzQ3MGFiZjVlZjM4MzFhYTFiZDU1NTNiNDg2ODAzZTgzMjUxNTkwYWI3ZmYzNWExMTdjZjZhYWQzOD9yZXNwb25zZS1jb250ZW50LWRpc3Bvc2l0aW9uPSomcmVzcG9uc2UtY29udGVudC10eXBlPSoifV19&Signature=Kj5ARSDdfceiNWOfru%7EKry%7EIEd2VcqujHdPUuAO4f7atig341cuYWpRJenYNq%7E5vsm4Tf61GIxhmWsf34kuuE6zjiil3vzB59XisetpDW5kk21jkRHSHxsAc7KEnR9SvuiYEiOlBt782B%7Ev5H3ioNEuk0Di1n%7EJRFZOyO6BZX0XP%7EpPNCLgdSDldnnrl1PT%7ECZTgcJWMnRbknCrRWQV4XY8-rVsE61p3ryFXT0oFTequbyjT6vXy31xu7pgZuqMC7WcEWdBRbz5jiB0f8dYfX3Gs2bSN1nPNH2987w31xpaARrchvE9eHrTO3osktz5ILLbrLCZlujPJd-XoH8TyxQ__&Key-Pair-Id=K24J24Z295AEI9: HTTPSConnectionPool(host='cdn-lfs-us-1.hf.co', port=443): Read timed out.
+Trying to resume download...
+2025-07-08 09:59:52,457 - WARNING - Error while downloading from https://cdn-lfs-us-1.hf.co/repos/23/2c/232ca60237b0bb19bb6c28c5a6c8af79f2e423333a9626aad445543b80fbf31e/b5e0ce3470abf5ef3831aa1bd5553b486803e83251590ab7ff35a117cf6aad38?response-content-disposition=inline%3B+filename*%3DUTF-8%27%27pytorch_model.bin%3B+filename%3D%22pytorch_model.bin%22%3B&response-content-type=application%2Foctet-stream&Expires=1751965159&Policy=eyJTdGF0ZW1lbnQiOlt7IkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc1MTk2NTE1OX19LCJSZXNvdXJjZSI6Imh0dHBzOi8vY2RuLWxmcy11cy0xLmhmLmNvL3JlcG9zLzIzLzJjLzIzMmNhNjAyMzdiMGJiMTliYjZjMjhjNWE2YzhhZjc5ZjJlNDIzMzMzYTk2MjZhYWQ0NDU1NDNiODBmYmYzMWUvYjVlMGNlMzQ3MGFiZjVlZjM4MzFhYTFiZDU1NTNiNDg2ODAzZTgzMjUxNTkwYWI3ZmYzNWExMTdjZjZhYWQzOD9yZXNwb25zZS1jb250ZW50LWRpc3Bvc2l0aW9uPSomcmVzcG9uc2UtY29udGVudC10eXBlPSoifV19&Signature=Kj5ARSDdfceiNWOfru%7EKry%7EIEd2VcqujHdPUuAO4f7atig341cuYWpRJenYNq%7E5vsm4Tf61GIxhmWsf34kuuE6zjiil3vzB59XisetpDW5kk21jkRHSHxsAc7KEnR9SvuiYEiOlBt782B%7Ev5H3ioNEuk0Di1n%7EJRFZOyO6BZX0XP%7EpPNCLgdSDldnnrl1PT%7ECZTgcJWMnRbknCrRWQV4XY8-rVsE61p3ryFXT0oFTequbyjT6vXy31xu7pgZuqMC7WcEWdBRbz5jiB0f8dYfX3Gs2bSN1nPNH2987w31xpaARrchvE9eHrTO3osktz5ILLbrLCZlujPJd-XoH8TyxQ__&Key-Pair-Id=K24J24Z295AEI9: HTTPSConnectionPool(host='cdn-lfs-us-1.hf.co', port=443): Read timed out.
+Trying to resume download...
+2025-07-08 10:03:54,951 - INFO - Use pytorch device_name: cpu
+2025-07-08 10:03:54,952 - INFO - Load pretrained SentenceTransformer: BAAI/bge-m3
+2025-07-08 10:09:50,865 - WARNING - Error while downloading from https://cdn-lfs-us-1.hf.co/repos/23/2c/232ca60237b0bb19bb6c28c5a6c8af79f2e423333a9626aad445543b80fbf31e/b5e0ce3470abf5ef3831aa1bd5553b486803e83251590ab7ff35a117cf6aad38?response-content-disposition=inline%3B+filename*%3DUTF-8%27%27pytorch_model.bin%3B+filename%3D%22pytorch_model.bin%22%3B&response-content-type=application%2Foctet-stream&Expires=1751968973&Policy=eyJTdGF0ZW1lbnQiOlt7IkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc1MTk2ODk3M319LCJSZXNvdXJjZSI6Imh0dHBzOi8vY2RuLWxmcy11cy0xLmhmLmNvL3JlcG9zLzIzLzJjLzIzMmNhNjAyMzdiMGJiMTliYjZjMjhjNWE2YzhhZjc5ZjJlNDIzMzMzYTk2MjZhYWQ0NDU1NDNiODBmYmYzMWUvYjVlMGNlMzQ3MGFiZjVlZjM4MzFhYTFiZDU1NTNiNDg2ODAzZTgzMjUxNTkwYWI3ZmYzNWExMTdjZjZhYWQzOD9yZXNwb25zZS1jb250ZW50LWRpc3Bvc2l0aW9uPSomcmVzcG9uc2UtY29udGVudC10eXBlPSoifV19&Signature=LhzAWO2SVpKk0IopB%7E-9xQ8BhVkIfh7m-rHFxmTEVL8KmxTPvWvhsr5B3f0RRunxlERr9zw%7Ees7ZRAYkpwtwGRXpol9rhCvDTn82Y8Aw-jLaOfkjTEBmJEWITZV9RBBGdT9pwfzrRaMvHEohIzBDntjslFBkuauQ2cgAoQ25erfJZTwRQVMIAQU1QiNiiPWiKZ-NqMeCGpcqQN2GatHOt-6hHl5FYsj89TPSWWmLIFiYwFOSpp0qrD%7EIqYrKG%7EZXO1Kr-eYIRup0Qp2IXjWdVrSQpNefwhWqQGkG1ucqEcSjjPX2p84Intu8SIFov0rcNYIhojdMS0sOalvPnKpGZQ__&Key-Pair-Id=K24J24Z295AEI9: HTTPSConnectionPool(host='cdn-lfs-us-1.hf.co', port=443): Read timed out.
+Trying to resume download...
+2025-07-08 10:11:47,132 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-07-08 10:11:47,836 - ERROR - Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+2025-07-08 10:11:47,872 - ERROR - Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+2025-07-08 10:11:48,739 - ERROR - Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+2025-07-08 10:11:48,747 - ERROR - Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+2025-07-08 10:12:51,763 - INFO - Use pytorch device_name: cpu
+2025-07-08 10:12:51,764 - INFO - Load pretrained SentenceTransformer: BAAI/bge-m3
+2025-07-08 10:12:56,570 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-07-08 10:12:57,071 - ERROR - Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+2025-07-08 10:12:57,102 - ERROR - Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+2025-07-08 10:12:57,371 - ERROR - Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+2025-07-08 10:12:57,372 - ERROR - Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+2025-07-08 12:03:15,288 - INFO - Use pytorch device_name: cpu
+2025-07-08 12:03:15,288 - INFO - Load pretrained SentenceTransformer: BAAI/bge-m3
+2025-07-08 12:03:23,931 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-07-08 12:03:24,514 - ERROR - Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+2025-07-08 12:03:24,547 - ERROR - Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+2025-07-08 12:03:32,579 - ERROR - Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+2025-07-08 12:03:32,580 - ERROR - Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+2025-07-08 14:18:36,889 - WARNING - Error while downloading from https://cdn-lfs-us-1.hf.co/repos/23/2c/232ca60237b0bb19bb6c28c5a6c8af79f2e423333a9626aad445543b80fbf31e/993b2248881724788dcab8c644a91dfd63584b6e5604ff2037cb5541e1e38e7e?response-content-disposition=inline%3B+filename*%3DUTF-8%27%27model.safetensors%3B+filename%3D%22model.safetensors%22%3B&Expires=1751975381&Policy=eyJTdGF0ZW1lbnQiOlt7IkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc1MTk3NTM4MX19LCJSZXNvdXJjZSI6Imh0dHBzOi8vY2RuLWxmcy11cy0xLmhmLmNvL3JlcG9zLzIzLzJjLzIzMmNhNjAyMzdiMGJiMTliYjZjMjhjNWE2YzhhZjc5ZjJlNDIzMzMzYTk2MjZhYWQ0NDU1NDNiODBmYmYzMWUvOTkzYjIyNDg4ODE3MjQ3ODhkY2FiOGM2NDRhOTFkZmQ2MzU4NGI2ZTU2MDRmZjIwMzdjYjU1NDFlMWUzOGU3ZT9yZXNwb25zZS1jb250ZW50LWRpc3Bvc2l0aW9uPSoifV19&Signature=ZritoQ%7EyvJHTzvf9YzxvgboX31Gx9J8DYhKGaXGcyRsvljwH0rsbinUmUfg8nkrkyMR140WYhjR7Pe2d7nzKJVthCbFnYEuEK79snzh%7EY4cEV4%7EuECJbquV9fQcpUY9KBEy08IsmhE6DHTjT6MoV-Wy40jH9i87y%7E33YpIyupdsNKbSo706476BU2ZbkFAfPXFRMjPrPjDSJQdem-3eH%7Eb0b%7E8WPmGs-8qk9qgS%7EHREmNc194Ef2y7VgK0hkcu8zE5qgfWiel6WBjRNyOjiPqUtURg2RrAtUglNcbrfySCGEkjlvImnFJoRku5yyDebISLlxJJhPxvhKW8gJ4wy8xg__&Key-Pair-Id=K24J24Z295AEI9: HTTPSConnectionPool(host='cdn-lfs-us-1.hf.co', port=443): Read timed out.
+Trying to resume download...
+2025-07-08 14:22:02,893 - INFO - Use pytorch device_name: cpu
+2025-07-08 14:22:02,893 - INFO - Load pretrained SentenceTransformer: BAAI/bge-m3
+2025-07-08 14:22:07,624 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-07-08 14:22:08,290 - ERROR - Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+2025-07-08 14:22:08,337 - ERROR - Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+2025-07-08 14:22:09,065 - ERROR - Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+2025-07-08 14:22:09,069 - ERROR - Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+2025-07-08 14:27:31,482 - WARNING - Error while downloading from https://cdn-lfs-us-1.hf.co/repos/23/2c/232ca60237b0bb19bb6c28c5a6c8af79f2e423333a9626aad445543b80fbf31e/993b2248881724788dcab8c644a91dfd63584b6e5604ff2037cb5541e1e38e7e?response-content-disposition=inline%3B+filename*%3DUTF-8%27%27model.safetensors%3B+filename%3D%22model.safetensors%22%3B&Expires=1751984360&Policy=eyJTdGF0ZW1lbnQiOlt7IkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc1MTk4NDM2MH19LCJSZXNvdXJjZSI6Imh0dHBzOi8vY2RuLWxmcy11cy0xLmhmLmNvL3JlcG9zLzIzLzJjLzIzMmNhNjAyMzdiMGJiMTliYjZjMjhjNWE2YzhhZjc5ZjJlNDIzMzMzYTk2MjZhYWQ0NDU1NDNiODBmYmYzMWUvOTkzYjIyNDg4ODE3MjQ3ODhkY2FiOGM2NDRhOTFkZmQ2MzU4NGI2ZTU2MDRmZjIwMzdjYjU1NDFlMWUzOGU3ZT9yZXNwb25zZS1jb250ZW50LWRpc3Bvc2l0aW9uPSoifV19&Signature=JL0M6aQMfqGealYHs-cFA%7E5xkdi%7E6X2UMWYx9w6U6v6Q3qVmwdcI8vgy5WAgMBPWqJa8ckuPzfB%7Eg8dBJudLgnWS9ep0VF8TJpEnAP-B5NxRk8ocgN3QZLyFPFZhUG-pYPBhV9Pva4TgH8HjCTan0p8bvGNpY4cNIjO4RUhqnGn-RKb73Ya%7EfBWIw-4yudMc5MsHBXYmXLBbmHUnD2PXeoHq%7EgJtSBEe%7E5C-wZSs0xaNsRmdYkOUtXjX85bR2rD0fmIdk%7EP72gWqmfSk%7EdtemhXJxSVubWwpqxDjhpR5j9jRv6ObFCaZa3XYJw5J-TV49ak32IbP94wO6B6dOZwfjg__&Key-Pair-Id=K24J24Z295AEI9: HTTPSConnectionPool(host='cdn-lfs-us-1.hf.co', port=443): Read timed out.
+Trying to resume download...
+2025-07-08 14:28:18,459 - WARNING - Error while downloading from https://cdn-lfs-us-1.hf.co/repos/23/2c/232ca60237b0bb19bb6c28c5a6c8af79f2e423333a9626aad445543b80fbf31e/993b2248881724788dcab8c644a91dfd63584b6e5604ff2037cb5541e1e38e7e?response-content-disposition=inline%3B+filename*%3DUTF-8%27%27model.safetensors%3B+filename%3D%22model.safetensors%22%3B&Expires=1751984360&Policy=eyJTdGF0ZW1lbnQiOlt7IkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc1MTk4NDM2MH19LCJSZXNvdXJjZSI6Imh0dHBzOi8vY2RuLWxmcy11cy0xLmhmLmNvL3JlcG9zLzIzLzJjLzIzMmNhNjAyMzdiMGJiMTliYjZjMjhjNWE2YzhhZjc5ZjJlNDIzMzMzYTk2MjZhYWQ0NDU1NDNiODBmYmYzMWUvOTkzYjIyNDg4ODE3MjQ3ODhkY2FiOGM2NDRhOTFkZmQ2MzU4NGI2ZTU2MDRmZjIwMzdjYjU1NDFlMWUzOGU3ZT9yZXNwb25zZS1jb250ZW50LWRpc3Bvc2l0aW9uPSoifV19&Signature=JL0M6aQMfqGealYHs-cFA%7E5xkdi%7E6X2UMWYx9w6U6v6Q3qVmwdcI8vgy5WAgMBPWqJa8ckuPzfB%7Eg8dBJudLgnWS9ep0VF8TJpEnAP-B5NxRk8ocgN3QZLyFPFZhUG-pYPBhV9Pva4TgH8HjCTan0p8bvGNpY4cNIjO4RUhqnGn-RKb73Ya%7EfBWIw-4yudMc5MsHBXYmXLBbmHUnD2PXeoHq%7EgJtSBEe%7E5C-wZSs0xaNsRmdYkOUtXjX85bR2rD0fmIdk%7EP72gWqmfSk%7EdtemhXJxSVubWwpqxDjhpR5j9jRv6ObFCaZa3XYJw5J-TV49ak32IbP94wO6B6dOZwfjg__&Key-Pair-Id=K24J24Z295AEI9: HTTPSConnectionPool(host='cdn-lfs-us-1.hf.co', port=443): Read timed out.
+Trying to resume download...
+2025-07-08 15:05:34,513 - INFO - Use pytorch device_name: cpu
+2025-07-08 15:05:34,515 - INFO - Load pretrained SentenceTransformer: BAAI/bge-m3
+2025-07-08 15:05:58,806 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-07-08 15:05:59,951 - ERROR - Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+2025-07-08 15:06:00,084 - ERROR - Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+2025-07-08 15:06:02,537 - ERROR - Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+2025-07-08 15:06:02,539 - ERROR - Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+2025-07-08 15:07:38,881 - WARNING - Error while downloading from https://cdn-lfs-us-1.hf.co/repos/23/2c/232ca60237b0bb19bb6c28c5a6c8af79f2e423333a9626aad445543b80fbf31e/993b2248881724788dcab8c644a91dfd63584b6e5604ff2037cb5541e1e38e7e?response-content-disposition=inline%3B+filename*%3DUTF-8%27%27model.safetensors%3B+filename%3D%22model.safetensors%22%3B&Expires=1751986098&Policy=eyJTdGF0ZW1lbnQiOlt7IkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc1MTk4NjA5OH19LCJSZXNvdXJjZSI6Imh0dHBzOi8vY2RuLWxmcy11cy0xLmhmLmNvL3JlcG9zLzIzLzJjLzIzMmNhNjAyMzdiMGJiMTliYjZjMjhjNWE2YzhhZjc5ZjJlNDIzMzMzYTk2MjZhYWQ0NDU1NDNiODBmYmYzMWUvOTkzYjIyNDg4ODE3MjQ3ODhkY2FiOGM2NDRhOTFkZmQ2MzU4NGI2ZTU2MDRmZjIwMzdjYjU1NDFlMWUzOGU3ZT9yZXNwb25zZS1jb250ZW50LWRpc3Bvc2l0aW9uPSoifV19&Signature=s0FHgakjQamrlgxEXhIr6-FAi3qv2TXS3STT8QdlKFD1xnxabglDGNt2vpargghyHOSR-cBNORRpZOxFI5QGwrI86AJQiyQvHM8WS9fNcxtOy6QZWP25Coq69d8vB5%7EU1tGomd8s-51bVRXcUfF%7ExcIg0akDZBQm2tLvRIEJhQVN5chPORujlKbSe0zvxelt644r76MndB3GuHrHhZNOiG0IJQdvFpdmLChDxEps42UwjK7TBiJdAPLEH%7E1uCRHnjzyZB6jOibaoYcTIeFTksGgGpVItXJz-KRITnJt6-uIFfMGmpeB34KSb1rxSmxedyWKaFvU2AFHTeCtffMkIMg__&Key-Pair-Id=K24J24Z295AEI9: HTTPSConnectionPool(host='cdn-lfs-us-1.hf.co', port=443): Read timed out.
+Trying to resume download...
+2025-07-08 15:14:54,887 - WARNING - Error while downloading from https://cdn-lfs-us-1.hf.co/repos/23/2c/232ca60237b0bb19bb6c28c5a6c8af79f2e423333a9626aad445543b80fbf31e/993b2248881724788dcab8c644a91dfd63584b6e5604ff2037cb5541e1e38e7e?response-content-disposition=inline%3B+filename*%3DUTF-8%27%27model.safetensors%3B+filename%3D%22model.safetensors%22%3B&Expires=1751986098&Policy=eyJTdGF0ZW1lbnQiOlt7IkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc1MTk4NjA5OH19LCJSZXNvdXJjZSI6Imh0dHBzOi8vY2RuLWxmcy11cy0xLmhmLmNvL3JlcG9zLzIzLzJjLzIzMmNhNjAyMzdiMGJiMTliYjZjMjhjNWE2YzhhZjc5ZjJlNDIzMzMzYTk2MjZhYWQ0NDU1NDNiODBmYmYzMWUvOTkzYjIyNDg4ODE3MjQ3ODhkY2FiOGM2NDRhOTFkZmQ2MzU4NGI2ZTU2MDRmZjIwMzdjYjU1NDFlMWUzOGU3ZT9yZXNwb25zZS1jb250ZW50LWRpc3Bvc2l0aW9uPSoifV19&Signature=s0FHgakjQamrlgxEXhIr6-FAi3qv2TXS3STT8QdlKFD1xnxabglDGNt2vpargghyHOSR-cBNORRpZOxFI5QGwrI86AJQiyQvHM8WS9fNcxtOy6QZWP25Coq69d8vB5%7EU1tGomd8s-51bVRXcUfF%7ExcIg0akDZBQm2tLvRIEJhQVN5chPORujlKbSe0zvxelt644r76MndB3GuHrHhZNOiG0IJQdvFpdmLChDxEps42UwjK7TBiJdAPLEH%7E1uCRHnjzyZB6jOibaoYcTIeFTksGgGpVItXJz-KRITnJt6-uIFfMGmpeB34KSb1rxSmxedyWKaFvU2AFHTeCtffMkIMg__&Key-Pair-Id=K24J24Z295AEI9: HTTPSConnectionPool(host='cdn-lfs-us-1.hf.co', port=443): Read timed out.
+Trying to resume download...
+2025-07-08 15:20:06,577 - WARNING - Error while downloading from https://cdn-lfs-us-1.hf.co/repos/23/2c/232ca60237b0bb19bb6c28c5a6c8af79f2e423333a9626aad445543b80fbf31e/993b2248881724788dcab8c644a91dfd63584b6e5604ff2037cb5541e1e38e7e?response-content-disposition=inline%3B+filename*%3DUTF-8%27%27model.safetensors%3B+filename%3D%22model.safetensors%22%3B&Expires=1751986098&Policy=eyJTdGF0ZW1lbnQiOlt7IkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc1MTk4NjA5OH19LCJSZXNvdXJjZSI6Imh0dHBzOi8vY2RuLWxmcy11cy0xLmhmLmNvL3JlcG9zLzIzLzJjLzIzMmNhNjAyMzdiMGJiMTliYjZjMjhjNWE2YzhhZjc5ZjJlNDIzMzMzYTk2MjZhYWQ0NDU1NDNiODBmYmYzMWUvOTkzYjIyNDg4ODE3MjQ3ODhkY2FiOGM2NDRhOTFkZmQ2MzU4NGI2ZTU2MDRmZjIwMzdjYjU1NDFlMWUzOGU3ZT9yZXNwb25zZS1jb250ZW50LWRpc3Bvc2l0aW9uPSoifV19&Signature=s0FHgakjQamrlgxEXhIr6-FAi3qv2TXS3STT8QdlKFD1xnxabglDGNt2vpargghyHOSR-cBNORRpZOxFI5QGwrI86AJQiyQvHM8WS9fNcxtOy6QZWP25Coq69d8vB5%7EU1tGomd8s-51bVRXcUfF%7ExcIg0akDZBQm2tLvRIEJhQVN5chPORujlKbSe0zvxelt644r76MndB3GuHrHhZNOiG0IJQdvFpdmLChDxEps42UwjK7TBiJdAPLEH%7E1uCRHnjzyZB6jOibaoYcTIeFTksGgGpVItXJz-KRITnJt6-uIFfMGmpeB34KSb1rxSmxedyWKaFvU2AFHTeCtffMkIMg__&Key-Pair-Id=K24J24Z295AEI9: HTTPSConnectionPool(host='cdn-lfs-us-1.hf.co', port=443): Read timed out.
+Trying to resume download...
+2025-07-08 15:23:42,255 - WARNING - Error while downloading from https://cdn-lfs-us-1.hf.co/repos/23/2c/232ca60237b0bb19bb6c28c5a6c8af79f2e423333a9626aad445543b80fbf31e/993b2248881724788dcab8c644a91dfd63584b6e5604ff2037cb5541e1e38e7e?response-content-disposition=inline%3B+filename*%3DUTF-8%27%27model.safetensors%3B+filename%3D%22model.safetensors%22%3B&Expires=1751986098&Policy=eyJTdGF0ZW1lbnQiOlt7IkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc1MTk4NjA5OH19LCJSZXNvdXJjZSI6Imh0dHBzOi8vY2RuLWxmcy11cy0xLmhmLmNvL3JlcG9zLzIzLzJjLzIzMmNhNjAyMzdiMGJiMTliYjZjMjhjNWE2YzhhZjc5ZjJlNDIzMzMzYTk2MjZhYWQ0NDU1NDNiODBmYmYzMWUvOTkzYjIyNDg4ODE3MjQ3ODhkY2FiOGM2NDRhOTFkZmQ2MzU4NGI2ZTU2MDRmZjIwMzdjYjU1NDFlMWUzOGU3ZT9yZXNwb25zZS1jb250ZW50LWRpc3Bvc2l0aW9uPSoifV19&Signature=s0FHgakjQamrlgxEXhIr6-FAi3qv2TXS3STT8QdlKFD1xnxabglDGNt2vpargghyHOSR-cBNORRpZOxFI5QGwrI86AJQiyQvHM8WS9fNcxtOy6QZWP25Coq69d8vB5%7EU1tGomd8s-51bVRXcUfF%7ExcIg0akDZBQm2tLvRIEJhQVN5chPORujlKbSe0zvxelt644r76MndB3GuHrHhZNOiG0IJQdvFpdmLChDxEps42UwjK7TBiJdAPLEH%7E1uCRHnjzyZB6jOibaoYcTIeFTksGgGpVItXJz-KRITnJt6-uIFfMGmpeB34KSb1rxSmxedyWKaFvU2AFHTeCtffMkIMg__&Key-Pair-Id=K24J24Z295AEI9: HTTPSConnectionPool(host='cdn-lfs-us-1.hf.co', port=443): Read timed out.
+Trying to resume download...
+2025-07-08 15:29:01,659 - WARNING - Error while downloading from https://cdn-lfs-us-1.hf.co/repos/23/2c/232ca60237b0bb19bb6c28c5a6c8af79f2e423333a9626aad445543b80fbf31e/993b2248881724788dcab8c644a91dfd63584b6e5604ff2037cb5541e1e38e7e?response-content-disposition=inline%3B+filename*%3DUTF-8%27%27model.safetensors%3B+filename%3D%22model.safetensors%22%3B&Expires=1751986098&Policy=eyJTdGF0ZW1lbnQiOlt7IkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc1MTk4NjA5OH19LCJSZXNvdXJjZSI6Imh0dHBzOi8vY2RuLWxmcy11cy0xLmhmLmNvL3JlcG9zLzIzLzJjLzIzMmNhNjAyMzdiMGJiMTliYjZjMjhjNWE2YzhhZjc5ZjJlNDIzMzMzYTk2MjZhYWQ0NDU1NDNiODBmYmYzMWUvOTkzYjIyNDg4ODE3MjQ3ODhkY2FiOGM2NDRhOTFkZmQ2MzU4NGI2ZTU2MDRmZjIwMzdjYjU1NDFlMWUzOGU3ZT9yZXNwb25zZS1jb250ZW50LWRpc3Bvc2l0aW9uPSoifV19&Signature=s0FHgakjQamrlgxEXhIr6-FAi3qv2TXS3STT8QdlKFD1xnxabglDGNt2vpargghyHOSR-cBNORRpZOxFI5QGwrI86AJQiyQvHM8WS9fNcxtOy6QZWP25Coq69d8vB5%7EU1tGomd8s-51bVRXcUfF%7ExcIg0akDZBQm2tLvRIEJhQVN5chPORujlKbSe0zvxelt644r76MndB3GuHrHhZNOiG0IJQdvFpdmLChDxEps42UwjK7TBiJdAPLEH%7E1uCRHnjzyZB6jOibaoYcTIeFTksGgGpVItXJz-KRITnJt6-uIFfMGmpeB34KSb1rxSmxedyWKaFvU2AFHTeCtffMkIMg__&Key-Pair-Id=K24J24Z295AEI9: HTTPSConnectionPool(host='cdn-lfs-us-1.hf.co', port=443): Read timed out.
+Trying to resume download...
+2025-07-08 15:38:54,122 - WARNING - Error while downloading from https://cdn-lfs-us-1.hf.co/repos/23/2c/232ca60237b0bb19bb6c28c5a6c8af79f2e423333a9626aad445543b80fbf31e/993b2248881724788dcab8c644a91dfd63584b6e5604ff2037cb5541e1e38e7e?response-content-disposition=inline%3B+filename*%3DUTF-8%27%27model.safetensors%3B+filename%3D%22model.safetensors%22%3B&Expires=1751986098&Policy=eyJTdGF0ZW1lbnQiOlt7IkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc1MTk4NjA5OH19LCJSZXNvdXJjZSI6Imh0dHBzOi8vY2RuLWxmcy11cy0xLmhmLmNvL3JlcG9zLzIzLzJjLzIzMmNhNjAyMzdiMGJiMTliYjZjMjhjNWE2YzhhZjc5ZjJlNDIzMzMzYTk2MjZhYWQ0NDU1NDNiODBmYmYzMWUvOTkzYjIyNDg4ODE3MjQ3ODhkY2FiOGM2NDRhOTFkZmQ2MzU4NGI2ZTU2MDRmZjIwMzdjYjU1NDFlMWUzOGU3ZT9yZXNwb25zZS1jb250ZW50LWRpc3Bvc2l0aW9uPSoifV19&Signature=s0FHgakjQamrlgxEXhIr6-FAi3qv2TXS3STT8QdlKFD1xnxabglDGNt2vpargghyHOSR-cBNORRpZOxFI5QGwrI86AJQiyQvHM8WS9fNcxtOy6QZWP25Coq69d8vB5%7EU1tGomd8s-51bVRXcUfF%7ExcIg0akDZBQm2tLvRIEJhQVN5chPORujlKbSe0zvxelt644r76MndB3GuHrHhZNOiG0IJQdvFpdmLChDxEps42UwjK7TBiJdAPLEH%7E1uCRHnjzyZB6jOibaoYcTIeFTksGgGpVItXJz-KRITnJt6-uIFfMGmpeB34KSb1rxSmxedyWKaFvU2AFHTeCtffMkIMg__&Key-Pair-Id=K24J24Z295AEI9: HTTPSConnectionPool(host='cdn-lfs-us-1.hf.co', port=443): Read timed out.
+Trying to resume download...
+2025-07-08 15:40:21,032 - WARNING - Error while downloading from https://cdn-lfs-us-1.hf.co/repos/23/2c/232ca60237b0bb19bb6c28c5a6c8af79f2e423333a9626aad445543b80fbf31e/993b2248881724788dcab8c644a91dfd63584b6e5604ff2037cb5541e1e38e7e?response-content-disposition=inline%3B+filename*%3DUTF-8%27%27model.safetensors%3B+filename%3D%22model.safetensors%22%3B&Expires=1751986098&Policy=eyJTdGF0ZW1lbnQiOlt7IkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc1MTk4NjA5OH19LCJSZXNvdXJjZSI6Imh0dHBzOi8vY2RuLWxmcy11cy0xLmhmLmNvL3JlcG9zLzIzLzJjLzIzMmNhNjAyMzdiMGJiMTliYjZjMjhjNWE2YzhhZjc5ZjJlNDIzMzMzYTk2MjZhYWQ0NDU1NDNiODBmYmYzMWUvOTkzYjIyNDg4ODE3MjQ3ODhkY2FiOGM2NDRhOTFkZmQ2MzU4NGI2ZTU2MDRmZjIwMzdjYjU1NDFlMWUzOGU3ZT9yZXNwb25zZS1jb250ZW50LWRpc3Bvc2l0aW9uPSoifV19&Signature=s0FHgakjQamrlgxEXhIr6-FAi3qv2TXS3STT8QdlKFD1xnxabglDGNt2vpargghyHOSR-cBNORRpZOxFI5QGwrI86AJQiyQvHM8WS9fNcxtOy6QZWP25Coq69d8vB5%7EU1tGomd8s-51bVRXcUfF%7ExcIg0akDZBQm2tLvRIEJhQVN5chPORujlKbSe0zvxelt644r76MndB3GuHrHhZNOiG0IJQdvFpdmLChDxEps42UwjK7TBiJdAPLEH%7E1uCRHnjzyZB6jOibaoYcTIeFTksGgGpVItXJz-KRITnJt6-uIFfMGmpeB34KSb1rxSmxedyWKaFvU2AFHTeCtffMkIMg__&Key-Pair-Id=K24J24Z295AEI9: HTTPSConnectionPool(host='cdn-lfs-us-1.hf.co', port=443): Read timed out.
+Trying to resume download...
+2025-07-08 15:43:23,153 - WARNING - Error while downloading from https://cdn-lfs-us-1.hf.co/repos/23/2c/232ca60237b0bb19bb6c28c5a6c8af79f2e423333a9626aad445543b80fbf31e/993b2248881724788dcab8c644a91dfd63584b6e5604ff2037cb5541e1e38e7e?response-content-disposition=inline%3B+filename*%3DUTF-8%27%27model.safetensors%3B+filename%3D%22model.safetensors%22%3B&Expires=1751986098&Policy=eyJTdGF0ZW1lbnQiOlt7IkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc1MTk4NjA5OH19LCJSZXNvdXJjZSI6Imh0dHBzOi8vY2RuLWxmcy11cy0xLmhmLmNvL3JlcG9zLzIzLzJjLzIzMmNhNjAyMzdiMGJiMTliYjZjMjhjNWE2YzhhZjc5ZjJlNDIzMzMzYTk2MjZhYWQ0NDU1NDNiODBmYmYzMWUvOTkzYjIyNDg4ODE3MjQ3ODhkY2FiOGM2NDRhOTFkZmQ2MzU4NGI2ZTU2MDRmZjIwMzdjYjU1NDFlMWUzOGU3ZT9yZXNwb25zZS1jb250ZW50LWRpc3Bvc2l0aW9uPSoifV19&Signature=s0FHgakjQamrlgxEXhIr6-FAi3qv2TXS3STT8QdlKFD1xnxabglDGNt2vpargghyHOSR-cBNORRpZOxFI5QGwrI86AJQiyQvHM8WS9fNcxtOy6QZWP25Coq69d8vB5%7EU1tGomd8s-51bVRXcUfF%7ExcIg0akDZBQm2tLvRIEJhQVN5chPORujlKbSe0zvxelt644r76MndB3GuHrHhZNOiG0IJQdvFpdmLChDxEps42UwjK7TBiJdAPLEH%7E1uCRHnjzyZB6jOibaoYcTIeFTksGgGpVItXJz-KRITnJt6-uIFfMGmpeB34KSb1rxSmxedyWKaFvU2AFHTeCtffMkIMg__&Key-Pair-Id=K24J24Z295AEI9: HTTPSConnectionPool(host='cdn-lfs-us-1.hf.co', port=443): Read timed out.
+Trying to resume download...
+2025-07-08 15:43:41,298 - WARNING - Error while downloading from https://cdn-lfs-us-1.hf.co/repos/23/2c/232ca60237b0bb19bb6c28c5a6c8af79f2e423333a9626aad445543b80fbf31e/993b2248881724788dcab8c644a91dfd63584b6e5604ff2037cb5541e1e38e7e?response-content-disposition=inline%3B+filename*%3DUTF-8%27%27model.safetensors%3B+filename%3D%22model.safetensors%22%3B&Expires=1751986098&Policy=eyJTdGF0ZW1lbnQiOlt7IkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc1MTk4NjA5OH19LCJSZXNvdXJjZSI6Imh0dHBzOi8vY2RuLWxmcy11cy0xLmhmLmNvL3JlcG9zLzIzLzJjLzIzMmNhNjAyMzdiMGJiMTliYjZjMjhjNWE2YzhhZjc5ZjJlNDIzMzMzYTk2MjZhYWQ0NDU1NDNiODBmYmYzMWUvOTkzYjIyNDg4ODE3MjQ3ODhkY2FiOGM2NDRhOTFkZmQ2MzU4NGI2ZTU2MDRmZjIwMzdjYjU1NDFlMWUzOGU3ZT9yZXNwb25zZS1jb250ZW50LWRpc3Bvc2l0aW9uPSoifV19&Signature=s0FHgakjQamrlgxEXhIr6-FAi3qv2TXS3STT8QdlKFD1xnxabglDGNt2vpargghyHOSR-cBNORRpZOxFI5QGwrI86AJQiyQvHM8WS9fNcxtOy6QZWP25Coq69d8vB5%7EU1tGomd8s-51bVRXcUfF%7ExcIg0akDZBQm2tLvRIEJhQVN5chPORujlKbSe0zvxelt644r76MndB3GuHrHhZNOiG0IJQdvFpdmLChDxEps42UwjK7TBiJdAPLEH%7E1uCRHnjzyZB6jOibaoYcTIeFTksGgGpVItXJz-KRITnJt6-uIFfMGmpeB34KSb1rxSmxedyWKaFvU2AFHTeCtffMkIMg__&Key-Pair-Id=K24J24Z295AEI9: HTTPSConnectionPool(host='cdn-lfs-us-1.hf.co', port=443): Read timed out.
+Trying to resume download...
+2025-07-08 15:49:12,521 - WARNING - Error while downloading from https://cdn-lfs-us-1.hf.co/repos/23/2c/232ca60237b0bb19bb6c28c5a6c8af79f2e423333a9626aad445543b80fbf31e/993b2248881724788dcab8c644a91dfd63584b6e5604ff2037cb5541e1e38e7e?response-content-disposition=inline%3B+filename*%3DUTF-8%27%27model.safetensors%3B+filename%3D%22model.safetensors%22%3B&Expires=1751986098&Policy=eyJTdGF0ZW1lbnQiOlt7IkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc1MTk4NjA5OH19LCJSZXNvdXJjZSI6Imh0dHBzOi8vY2RuLWxmcy11cy0xLmhmLmNvL3JlcG9zLzIzLzJjLzIzMmNhNjAyMzdiMGJiMTliYjZjMjhjNWE2YzhhZjc5ZjJlNDIzMzMzYTk2MjZhYWQ0NDU1NDNiODBmYmYzMWUvOTkzYjIyNDg4ODE3MjQ3ODhkY2FiOGM2NDRhOTFkZmQ2MzU4NGI2ZTU2MDRmZjIwMzdjYjU1NDFlMWUzOGU3ZT9yZXNwb25zZS1jb250ZW50LWRpc3Bvc2l0aW9uPSoifV19&Signature=s0FHgakjQamrlgxEXhIr6-FAi3qv2TXS3STT8QdlKFD1xnxabglDGNt2vpargghyHOSR-cBNORRpZOxFI5QGwrI86AJQiyQvHM8WS9fNcxtOy6QZWP25Coq69d8vB5%7EU1tGomd8s-51bVRXcUfF%7ExcIg0akDZBQm2tLvRIEJhQVN5chPORujlKbSe0zvxelt644r76MndB3GuHrHhZNOiG0IJQdvFpdmLChDxEps42UwjK7TBiJdAPLEH%7E1uCRHnjzyZB6jOibaoYcTIeFTksGgGpVItXJz-KRITnJt6-uIFfMGmpeB34KSb1rxSmxedyWKaFvU2AFHTeCtffMkIMg__&Key-Pair-Id=K24J24Z295AEI9: HTTPSConnectionPool(host='cdn-lfs-us-1.hf.co', port=443): Read timed out.
+Trying to resume download...
+2025-07-08 16:12:54,931 - INFO - Use pytorch device_name: cpu
+2025-07-08 16:12:54,931 - INFO - Load pretrained SentenceTransformer: BAAI/bge-m3
+2025-07-08 16:13:00,533 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-07-08 16:13:01,458 - ERROR - Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+2025-07-08 16:13:01,539 - ERROR - Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+2025-07-08 16:13:04,844 - ERROR - Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+2025-07-08 16:13:04,845 - ERROR - Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+2025-07-08 17:08:15,537 - INFO - Use pytorch device_name: cpu
+2025-07-08 17:08:15,538 - INFO - Load pretrained SentenceTransformer: BAAI/bge-m3
+2025-07-08 17:08:20,213 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-07-08 17:08:20,846 - ERROR - Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+2025-07-08 17:08:20,880 - ERROR - Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+2025-07-08 17:08:23,215 - ERROR - Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+2025-07-08 17:08:23,217 - ERROR - Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+2025-07-09 09:30:17,312 - INFO - Use pytorch device_name: cpu
+2025-07-09 09:30:17,313 - INFO - Load pretrained SentenceTransformer: BAAI/bge-m3
+2025-07-09 09:30:23,264 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-07-09 09:30:23,941 - ERROR - Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+2025-07-09 09:30:23,976 - ERROR - Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+2025-07-09 09:30:27,003 - ERROR - Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+2025-07-09 09:30:27,005 - ERROR - Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+2025-07-09 09:35:35,629 - WARNING - Error while downloading from https://cdn-lfs-us-1.hf.co/repos/23/2c/232ca60237b0bb19bb6c28c5a6c8af79f2e423333a9626aad445543b80fbf31e/993b2248881724788dcab8c644a91dfd63584b6e5604ff2037cb5541e1e38e7e?response-content-disposition=inline%3B+filename*%3DUTF-8%27%27model.safetensors%3B+filename%3D%22model.safetensors%22%3B&Expires=1752052340&Policy=eyJTdGF0ZW1lbnQiOlt7IkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc1MjA1MjM0MH19LCJSZXNvdXJjZSI6Imh0dHBzOi8vY2RuLWxmcy11cy0xLmhmLmNvL3JlcG9zLzIzLzJjLzIzMmNhNjAyMzdiMGJiMTliYjZjMjhjNWE2YzhhZjc5ZjJlNDIzMzMzYTk2MjZhYWQ0NDU1NDNiODBmYmYzMWUvOTkzYjIyNDg4ODE3MjQ3ODhkY2FiOGM2NDRhOTFkZmQ2MzU4NGI2ZTU2MDRmZjIwMzdjYjU1NDFlMWUzOGU3ZT9yZXNwb25zZS1jb250ZW50LWRpc3Bvc2l0aW9uPSoifV19&Signature=Z4xGfJ40LeYOhN5S7cwA6LRzUfjQjbFjjyvOOeQ9YqG9LGhsCVAerJGPYWdU%7E8rthAkgMV6VFbjeihpIgHHb0pqfg8icD4T38tLLjlCvpZeM8tVkgtl4tbGpH6Hl0p1%7E03R2rg7j4QdvmHcv6uePgRyhfL26dDHngZCLKBdaPPxe91G5ZtIFb9NUmfNAFLbECKpM0EdX1JkxcLzUDwap-o9uqhSLrQgdwyzts9jS5EiPX8EBPaixxEpvey08trHwISmybom0foqlg78rcNdrop20kDKz2WMHK1ZJWLCBeagmxJoRAOxQkIxZoQr0NEHKIZuNxYilsWPWJAlgSWQ-cg__&Key-Pair-Id=K24J24Z295AEI9: HTTPSConnectionPool(host='cdn-lfs-us-1.hf.co', port=443): Read timed out.
+Trying to resume download...
+2025-07-09 11:03:52,204 - INFO - Use pytorch device_name: cpu
+2025-07-09 11:03:52,205 - INFO - Load pretrained SentenceTransformer: BAAI/bge-m3
+2025-07-09 11:04:01,706 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-07-09 11:04:02,332 - ERROR - Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+2025-07-09 11:04:02,367 - ERROR - Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+2025-07-09 11:04:10,146 - ERROR - Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+2025-07-09 11:04:10,149 - ERROR - Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+2025-07-09 11:08:59,823 - INFO - Use pytorch device_name: cpu
+2025-07-09 11:08:59,823 - INFO - Load pretrained SentenceTransformer: BAAI/bge-m3
+2025-07-09 11:09:04,241 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-07-09 11:09:04,919 - ERROR - Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+2025-07-09 11:09:04,951 - ERROR - Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+2025-07-09 11:09:05,281 - ERROR - Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+2025-07-09 11:09:05,287 - ERROR - Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+2025-07-09 11:35:07,899 - INFO - Use pytorch device_name: cpu
+2025-07-09 11:35:07,899 - INFO - Load pretrained SentenceTransformer: BAAI/bge-m3
+2025-07-09 11:35:15,542 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-07-09 11:35:16,762 - ERROR - Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+2025-07-09 11:35:16,824 - ERROR - Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+2025-07-09 11:35:19,135 - ERROR - Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+2025-07-09 11:35:19,142 - ERROR - Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+2025-07-09 11:41:10,341 - INFO - Use pytorch device_name: cpu
+2025-07-09 11:41:10,342 - INFO - Load pretrained SentenceTransformer: BAAI/bge-m3
+2025-07-09 11:41:15,149 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-07-09 11:41:15,730 - ERROR - Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+2025-07-09 11:41:15,770 - ERROR - Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+2025-07-09 11:41:16,160 - ERROR - Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+2025-07-09 11:41:16,162 - ERROR - Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+2025-07-13 15:03:49,451 - INFO - Use pytorch device_name: cpu
+2025-07-13 15:03:49,452 - INFO - Load pretrained SentenceTransformer: BAAI/bge-m3
+2025-07-13 15:03:57,789 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-07-13 15:03:58,611 - ERROR - Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+2025-07-13 15:03:58,655 - ERROR - Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+2025-07-13 15:04:01,359 - ERROR - Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+2025-07-13 15:04:01,361 - ERROR - Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+2025-07-13 15:53:20,756 - INFO - Use pytorch device_name: cpu
+2025-07-13 15:53:20,756 - INFO - Load pretrained SentenceTransformer: BAAI/bge-m3
+2025-07-13 15:53:28,206 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-07-13 15:53:29,328 - ERROR - Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+2025-07-13 15:53:26,420 - ERROR - Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+2025-07-13 15:53:29,166 - ERROR - Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+2025-07-13 15:53:29,169 - ERROR - Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+2025-07-13 15:53:38,001 - INFO - Use pytorch device_name: cpu
+2025-07-13 15:53:38,002 - INFO - Load pretrained SentenceTransformer: BAAI/bge-m3
+2025-07-13 15:53:44,173 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-07-13 15:53:44,426 - ERROR - Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+2025-07-13 15:53:44,428 - ERROR - Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+2025-07-13 15:53:45,317 - INFO - Successfully loaded clusters: ['default']
+2025-07-13 15:53:45,335 - INFO - Database initialized at logs/sessions.db
+2025-07-13 15:53:45,382 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.20.93.104:5000
+2025-07-13 15:53:45,382 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-13 15:53:47,731 - INFO - 127.0.0.1 - - [13/Jul/2025 15:53:47] "GET / HTTP/1.1" 200 -
+2025-07-13 15:53:57,639 - INFO - User test_user logged in
+2025-07-13 15:53:57,640 - INFO - 172.20.80.1 - - [13/Jul/2025 15:53:57] "POST /login HTTP/1.1" 200 -
+2025-07-13 15:53:57,663 - INFO - Processing query with new LLM brain: 'bonjour (on cluster: default)'
+2025-07-13 15:53:59,788 - ERROR - Failed to send telemetry event CollectionQueryEvent: capture() takes 1 positional argument but 3 were given
+2025-07-13 15:53:59,800 - INFO - Retrieved RAG context: placeholder
+placeholder
+placeholder
+2025-07-13 15:53:59,800 - INFO - Sending master prompt for JSON response to LLM.
+2025-07-13 15:55:52,100 - INFO - LLM Raw Response:  {"type": "question", "answer": "Bonjour! Vous êtes sur le cluster par défaut. Quel est votre question?"}
+2025-07-13 15:55:52,175 - INFO - Cleaned JSON string: {"type": "question", "answer": "Bonjour! Vous êtes sur le cluster par défaut. Quel est votre question?"}
+2025-07-13 15:55:52,272 - INFO - Updated context for session local-session-1752418434445
+2025-07-13 15:55:52,532 - INFO - 172.20.80.1 - - [13/Jul/2025 15:55:52] "POST /chat HTTP/1.1" 200 -
+2025-07-13 15:56:28,817 - INFO - User test_user logged in
+2025-07-13 15:56:28,818 - INFO - 172.20.80.1 - - [13/Jul/2025 15:56:28] "POST /login HTTP/1.1" 200 -
+2025-07-13 15:56:28,845 - INFO - Processing query with new LLM brain: 'donner moi les pods dans namespace qui avec cette nom la "codep-orange" (on cluster: default)'
+2025-07-13 15:56:40,449 - INFO - Retrieved RAG context: placeholder
+placeholder
+placeholder
+2025-07-13 15:56:40,462 - INFO - Sending master prompt for JSON response to LLM.
+2025-07-13 15:57:21,861 - INFO - LLM Raw Response:  {"type": "command", "command": "kubectl get pods -n codep-orange", "explanation": "Affiche les pods dans le namespace 'codep-orange' sur le cluster par défaut"}
+2025-07-13 15:57:21,861 - INFO - Cleaned JSON string: {"type": "command", "command": "kubectl get pods -n codep-orange", "explanation": "Affiche les pods dans le namespace 'codep-orange' sur le cluster par défaut"}
+2025-07-13 15:57:21,871 - INFO - Updated context for session local-session-1752418434445
+2025-07-13 15:57:21,873 - INFO - 172.20.80.1 - - [13/Jul/2025 15:57:21] "POST /chat HTTP/1.1" 200 -
+2025-07-13 15:57:43,720 - INFO - User test_user logged in
+2025-07-13 15:57:43,721 - INFO - 172.20.80.1 - - [13/Jul/2025 15:57:43] "POST /login HTTP/1.1" 200 -
+2025-07-13 15:57:43,748 - INFO - Preparing to execute command: 'kubectl get pods -n codep-orange' on cluster 'default'
+2025-07-13 15:57:44,430 - INFO - Set active Kubernetes context to: default
+2025-07-13 15:57:44,448 - INFO - Running subprocess with command: ['/usr/local/bin/kubectl', 'get', 'pods', '-n', 'codep-orange']
+2025-07-13 15:57:45,764 - INFO - Updated context for session local-session-1752418434445
+2025-07-13 15:57:45,774 - INFO - Updated context for session local-session-1752418434445
+2025-07-13 15:57:45,775 - INFO - 172.20.80.1 - - [13/Jul/2025 15:57:45] "POST /confirm HTTP/1.1" 200 -
+2025-07-13 15:59:04,196 - INFO - User test_user logged in
+2025-07-13 15:59:04,197 - INFO - 172.20.80.1 - - [13/Jul/2025 15:59:04] "POST /login HTTP/1.1" 200 -
+2025-07-13 15:59:04,215 - INFO - Processing query with new LLM brain: 'donner moi un difinition pour ingress en kubernetes (on cluster: default)'
+2025-07-13 15:59:08,565 - INFO - Retrieved RAG context: placeholder
+placeholder
+placeholder
+2025-07-13 15:59:08,565 - INFO - Sending master prompt for JSON response to LLM.
+2025-07-13 15:59:59,849 - INFO - LLM Raw Response:  {"type": "question", "answer": "Un ingress est une ressource Kubernetes qui permet d'exposer des services externes à l'extérieur du cluster via un nom de domaine ou une IP publique. Il fonctionne en tant que reverse proxy et distribue les requêtes entrantes vers les pods correspondants."}
+2025-07-13 15:59:59,849 - INFO - Cleaned JSON string: {"type": "question", "answer": "Un ingress est une ressource Kubernetes qui permet d'exposer des services externes à l'extérieur du cluster via un nom de domaine ou une IP publique. Il fonctionne en tant que reverse proxy et distribue les requêtes entrantes vers les pods correspondants."}
+2025-07-13 15:59:59,859 - INFO - Updated context for session local-session-1752418434445
+2025-07-13 15:59:59,859 - INFO - 172.20.80.1 - - [13/Jul/2025 15:59:59] "POST /chat HTTP/1.1" 200 -
+2025-07-13 16:02:53,623 - INFO - 172.20.80.1 - - [13/Jul/2025 16:02:53] "GET / HTTP/1.1" 200 -
+2025-07-13 16:02:53,893 - INFO - 172.20.80.1 - - [13/Jul/2025 16:02:53] "[36mGET /static/in.png HTTP/1.1[0m" 304 -
+2025-07-13 16:02:53,893 - INFO - 172.20.80.1 - - [13/Jul/2025 16:02:53] "[36mGET /static/ubama.jpg HTTP/1.1[0m" 304 -
+2025-07-13 16:02:53,894 - INFO - 172.20.80.1 - - [13/Jul/2025 16:02:53] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-07-13 16:02:54,334 - INFO - 172.20.80.1 - - [13/Jul/2025 16:02:54] "GET /static/script.js HTTP/1.1" 200 -
+2025-07-13 16:03:27,102 - INFO - Use pytorch device_name: cpu
+2025-07-13 16:03:27,103 - INFO - Load pretrained SentenceTransformer: BAAI/bge-m3
+2025-07-13 16:03:36,541 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-07-13 16:03:37,877 - ERROR - Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+2025-07-13 16:03:38,034 - ERROR - Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+2025-07-13 16:03:41,462 - ERROR - Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+2025-07-13 16:03:41,509 - ERROR - Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+2025-07-13 16:04:58,528 - INFO - Use pytorch device_name: cpu
+2025-07-13 16:04:58,529 - INFO - Load pretrained SentenceTransformer: BAAI/bge-m3
+2025-07-13 16:05:06,181 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-07-13 16:05:07,623 - ERROR - Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+2025-07-13 16:05:07,714 - ERROR - Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+2025-07-13 16:05:08,890 - ERROR - Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+2025-07-13 16:05:08,892 - ERROR - Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+2025-07-13 16:05:16,811 - INFO - Use pytorch device_name: cpu
+2025-07-13 16:05:16,812 - INFO - Load pretrained SentenceTransformer: BAAI/bge-m3
+2025-07-13 16:05:23,675 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-07-13 16:05:24,152 - ERROR - Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+2025-07-13 16:05:24,157 - ERROR - Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+2025-07-13 16:05:26,350 - INFO - Successfully loaded clusters: ['default']
+2025-07-13 16:05:26,355 - INFO - Database initialized at logs/sessions.db
+2025-07-13 16:05:26,408 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.20.93.104:5000
+2025-07-13 16:05:26,408 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-13 16:08:24,939 - INFO - Use pytorch device_name: cpu
+2025-07-13 16:08:24,941 - INFO - Load pretrained SentenceTransformer: BAAI/bge-m3
+2025-07-13 16:08:32,616 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-07-13 16:08:33,963 - ERROR - Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+2025-07-13 16:08:34,088 - ERROR - Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+2025-07-13 16:08:36,665 - ERROR - Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+2025-07-13 16:08:36,669 - ERROR - Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+2025-07-13 16:08:47,954 - INFO - Use pytorch device_name: cpu
+2025-07-13 16:08:47,954 - INFO - Load pretrained SentenceTransformer: BAAI/bge-m3
+2025-07-13 16:08:56,599 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-07-13 16:08:56,995 - ERROR - Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+2025-07-13 16:08:56,998 - ERROR - Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+2025-07-13 16:08:59,397 - INFO - Successfully loaded clusters: ['default']
+2025-07-13 16:08:59,402 - INFO - Database initialized at logs/sessions.db
+2025-07-13 16:08:59,470 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.20.93.104:5000
+2025-07-13 16:08:59,471 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-13 16:13:37,530 - INFO - Use pytorch device_name: cpu
+2025-07-13 16:13:37,530 - INFO - Load pretrained SentenceTransformer: BAAI/bge-m3
+2025-07-13 16:13:44,968 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-07-13 16:13:46,021 - ERROR - Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+2025-07-13 16:13:46,085 - ERROR - Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+2025-07-13 16:13:46,385 - ERROR - Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+2025-07-13 16:13:46,387 - ERROR - Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+2025-07-13 16:14:01,594 - INFO - Use pytorch device_name: cpu
+2025-07-13 16:14:01,594 - INFO - Load pretrained SentenceTransformer: BAAI/bge-m3
+2025-07-13 16:14:08,874 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-07-13 16:14:09,138 - ERROR - Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+2025-07-13 16:14:09,141 - ERROR - Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+2025-07-13 16:14:10,004 - INFO - Successfully loaded clusters: ['default']
+2025-07-13 16:14:10,004 - INFO - Database initialized at logs/sessions.db
+2025-07-13 16:14:10,017 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.20.93.104:5000
+2025-07-13 16:14:10,017 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-13 16:14:11,258 - INFO - 127.0.0.1 - - [13/Jul/2025 16:14:11] "GET / HTTP/1.1" 200 -
+2025-07-13 16:14:58,179 - INFO - 172.20.80.1 - - [13/Jul/2025 16:14:58] "GET / HTTP/1.1" 200 -
+2025-07-13 16:14:58,291 - INFO - 172.20.80.1 - - [13/Jul/2025 16:14:58] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-07-13 16:14:58,292 - INFO - 172.20.80.1 - - [13/Jul/2025 16:14:58] "[36mGET /static/in.png HTTP/1.1[0m" 304 -
+2025-07-13 16:14:58,293 - INFO - 172.20.80.1 - - [13/Jul/2025 16:14:58] "[36mGET /static/ubama.jpg HTTP/1.1[0m" 304 -
+2025-07-13 16:14:58,868 - INFO - 172.20.80.1 - - [13/Jul/2025 16:14:58] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2025-07-13 16:15:04,262 - INFO - User test_user logged in
+2025-07-13 16:15:04,262 - INFO - 172.20.80.1 - - [13/Jul/2025 16:15:04] "POST /login HTTP/1.1" 200 -
+2025-07-13 16:15:04,283 - INFO - Processing query with new LLM brain: 'Bonjour (on cluster: default)'
+2025-07-13 16:15:04,788 - ERROR - Failed to send telemetry event CollectionQueryEvent: capture() takes 1 positional argument but 3 were given
+2025-07-13 16:15:04,803 - INFO - Retrieved RAG context: placeholder
+placeholder
+placeholder
+2025-07-13 16:15:04,804 - INFO - Sending master prompt for JSON response to LLM.
+2025-07-13 16:16:51,370 - INFO - LLM Raw Response:  {"type": "question", "answer": "Hello! You are currently on the 'default' cluster."}
+2025-07-13 16:16:51,459 - INFO - Cleaned JSON string: {"type": "question", "answer": "Hello! You are currently on the 'default' cluster."}
+2025-07-13 16:16:51,696 - INFO - Processing query with new LLM brain: 'Bonjour (on cluster: default)'
+2025-07-13 16:16:58,154 - INFO - Retrieved RAG context: placeholder
+placeholder
+placeholder
+2025-07-13 16:17:09,443 - INFO - 172.20.80.1 - - [13/Jul/2025 16:17:09] "POST /chat HTTP/1.1" 200 -
+2025-07-13 16:17:19,561 - INFO - Updated context for session local-session-1752419699093
+2025-07-13 16:17:19,562 - INFO - Stream finished for session local-session-1752419699093.
+2025-07-13 16:17:23,560 - INFO - User test_user logged in
+2025-07-13 16:17:23,574 - INFO - 172.20.80.1 - - [13/Jul/2025 16:17:23] "POST /login HTTP/1.1" 200 -
+2025-07-13 16:17:23,606 - INFO - Processing query with new LLM brain: 'Quelle est la procédure de déploiement pour la pré-production ? (on cluster: default)'
+2025-07-13 16:17:32,265 - INFO - Retrieved RAG context: placeholder
+placeholder
+placeholder
+2025-07-13 16:17:32,265 - INFO - Sending master prompt for JSON response to LLM.
+2025-07-13 16:20:17,960 - INFO - LLM Raw Response:  {"type": "question", "answer": "La procédure de déploiement pour la pré-production sur votre cluster par défaut se fait en utilisant un Deployment Kubernetes. Vous pouvez créer un fichier YAML avec le nom `deployment.yaml` et y décrire les détails de votre application, puis l'appliquer avec la commande `kubectl apply -f deployment.yaml`. Cette opération va créer un Deployment qui gère automatiquement vos Pods."}
+2025-07-13 16:20:17,961 - INFO - Cleaned JSON string: {"type": "question", "answer": "La procédure de déploiement pour la pré-production sur votre cluster par défaut se fait en utilisant un Deployment Kubernetes. Vous pouvez créer un fichier YAML avec le nom `deployment.yaml` et y décrire les détails de votre application, puis l'appliquer avec la commande `kubectl apply -f deployment.yaml`. Cette opération va créer un Deployment qui gère automatiquement vos Pods."}
+2025-07-13 16:20:17,961 - INFO - Processing query with new LLM brain: 'Quelle est la procédure de déploiement pour la pré-production ? (on cluster: default)'
+2025-07-13 16:20:26,459 - INFO - Retrieved RAG context: placeholder
+placeholder
+placeholder
+2025-07-13 16:20:51,106 - INFO - 172.20.80.1 - - [13/Jul/2025 16:20:51] "POST /chat HTTP/1.1" 200 -
+2025-07-16 09:11:42,999 - INFO - Use pytorch device_name: cpu
+2025-07-16 09:11:43,000 - INFO - Load pretrained SentenceTransformer: BAAI/bge-m3
+2025-07-16 09:11:48,608 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-07-16 09:11:49,343 - ERROR - Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+2025-07-16 09:11:49,382 - ERROR - Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+2025-07-16 09:12:03,997 - ERROR - Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+2025-07-16 09:12:04,000 - ERROR - Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+2025-07-16 09:12:25,332 - INFO - Use pytorch device_name: cpu
+2025-07-16 09:12:25,332 - INFO - Load pretrained SentenceTransformer: BAAI/bge-m3
+2025-07-16 09:12:30,930 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-07-16 09:12:31,132 - ERROR - Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+2025-07-16 09:12:31,134 - ERROR - Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+2025-07-16 09:13:17,749 - INFO - Use pytorch device_name: cpu
+2025-07-16 09:13:17,749 - INFO - Load pretrained SentenceTransformer: BAAI/bge-m3
+2025-07-16 09:13:23,162 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-07-16 09:13:23,714 - ERROR - Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+2025-07-16 09:13:23,749 - ERROR - Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+2025-07-16 09:13:34,317 - ERROR - Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+2025-07-16 09:13:34,319 - ERROR - Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+2025-07-16 09:13:52,238 - INFO - Use pytorch device_name: cpu
+2025-07-16 09:13:52,238 - INFO - Load pretrained SentenceTransformer: BAAI/bge-m3
+2025-07-16 09:13:56,998 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-07-16 09:13:57,173 - ERROR - Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+2025-07-16 09:13:57,175 - ERROR - Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+2025-07-16 09:15:54,450 - INFO - Use pytorch device_name: cpu
+2025-07-16 09:15:54,450 - INFO - Load pretrained SentenceTransformer: BAAI/bge-m3
+2025-07-16 09:15:58,787 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-07-16 09:15:59,310 - ERROR - Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+2025-07-16 09:15:59,352 - ERROR - Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+2025-07-16 09:16:08,613 - ERROR - Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+2025-07-16 09:16:08,616 - ERROR - Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+2025-07-16 09:16:23,788 - INFO - Use pytorch device_name: cpu
+2025-07-16 09:16:23,788 - INFO - Load pretrained SentenceTransformer: BAAI/bge-m3
+2025-07-16 09:16:28,452 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-07-16 09:16:28,634 - ERROR - Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+2025-07-16 09:16:28,636 - ERROR - Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+2025-07-16 09:16:38,617 - INFO - Successfully loaded clusters: ['default']
+2025-07-16 09:16:38,619 - INFO - Database initialized at logs/sessions.db
+2025-07-16 09:16:38,640 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.20.93.104:5000
+2025-07-16 09:16:38,640 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-16 09:17:37,083 - INFO - Use pytorch device_name: cpu
+2025-07-16 09:17:37,083 - INFO - Load pretrained SentenceTransformer: BAAI/bge-m3
+2025-07-16 09:17:41,766 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-07-16 09:17:42,481 - ERROR - Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+2025-07-16 09:17:42,512 - ERROR - Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+2025-07-16 09:17:52,271 - ERROR - Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+2025-07-16 09:17:52,273 - ERROR - Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+2025-07-16 09:18:09,556 - INFO - Use pytorch device_name: cpu
+2025-07-16 09:18:09,556 - INFO - Load pretrained SentenceTransformer: BAAI/bge-m3
+2025-07-16 09:18:14,062 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-07-16 09:18:14,229 - ERROR - Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+2025-07-16 09:18:14,231 - ERROR - Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+2025-07-16 09:21:08,029 - INFO - Use pytorch device_name: cpu
+2025-07-16 09:21:08,029 - INFO - Load pretrained SentenceTransformer: BAAI/bge-m3
+2025-07-16 09:21:12,549 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-07-16 09:21:13,218 - ERROR - Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+2025-07-16 09:21:13,274 - ERROR - Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+2025-07-16 09:21:21,527 - ERROR - Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+2025-07-16 09:21:21,531 - ERROR - Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+2025-07-16 09:21:35,633 - INFO - Use pytorch device_name: cpu
+2025-07-16 09:21:35,633 - INFO - Load pretrained SentenceTransformer: BAAI/bge-m3
+2025-07-16 09:21:40,114 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-07-16 09:21:40,267 - ERROR - Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+2025-07-16 09:21:40,268 - ERROR - Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+2025-07-16 09:21:50,733 - INFO - Successfully loaded clusters: ['default']
+2025-07-16 09:21:50,734 - INFO - Database initialized at logs/sessions.db
+2025-07-16 09:21:50,747 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.20.93.104:5000
+2025-07-16 09:21:50,747 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-16 09:21:51,006 - INFO - 172.20.80.1 - - [16/Jul/2025 09:21:51] "GET / HTTP/1.1" 200 -
+2025-07-16 09:26:46,812 - INFO - Use pytorch device_name: cpu
+2025-07-16 09:26:46,813 - INFO - Load pretrained SentenceTransformer: BAAI/bge-m3
+2025-07-16 09:26:51,736 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-07-16 09:26:52,303 - ERROR - Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+2025-07-16 09:26:52,337 - ERROR - Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+2025-07-16 09:27:02,516 - ERROR - Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+2025-07-16 09:27:02,521 - ERROR - Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+2025-07-16 09:27:17,923 - INFO - Use pytorch device_name: cpu
+2025-07-16 09:27:17,923 - INFO - Load pretrained SentenceTransformer: BAAI/bge-m3
+2025-07-16 09:27:24,305 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-07-16 09:27:24,607 - ERROR - Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+2025-07-16 09:27:24,610 - ERROR - Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+2025-07-16 09:29:08,401 - INFO - Use pytorch device_name: cpu
+2025-07-16 09:29:08,401 - INFO - Load pretrained SentenceTransformer: BAAI/bge-m3
+2025-07-16 09:29:13,114 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-07-16 09:29:13,782 - ERROR - Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+2025-07-16 09:29:13,823 - ERROR - Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+2025-07-16 09:29:22,510 - ERROR - Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+2025-07-16 09:29:22,513 - ERROR - Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+2025-07-16 09:29:37,113 - INFO - Use pytorch device_name: cpu
+2025-07-16 09:29:37,113 - INFO - Load pretrained SentenceTransformer: BAAI/bge-m3
+2025-07-16 09:29:41,759 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-07-16 09:29:41,907 - ERROR - Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+2025-07-16 09:29:41,908 - ERROR - Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+2025-07-16 09:29:51,255 - INFO - Successfully loaded clusters: ['default']
+2025-07-16 09:29:51,256 - INFO - Database initialized at logs/sessions.db
+2025-07-16 09:29:51,271 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.20.93.104:5000
+2025-07-16 09:29:51,271 - INFO - [33mPress CTRL+C to quit[0m

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CodeP Chatbot</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Header Section with Logo, Title, and Owner Info -->
+        <div class="header-section">
+            <img src="/static/in.png" alt="Inetum Logo" class="company-logo">
+            <h1 class="header-title">💻 CodeP Chatbot</h1>
+            <div class="owner-info">
+                <img src="/static/ubama.jpg" alt="Ayoub Ajdour" class="owner-avatar">
+                <div class="owner-details">
+                    <h2>Ayoub Ajdour</h2>
+                    <p>DevOps Engineer | <a href="https://www.linkedin.com/in/ayoub-ajdour-422198244" target="_blank">LinkedIn</a></p>
+                </div>
+            </div>
+        </div>
+        <!-- Cluster Selector -->
+        <div class="cluster-selector">
+            <label for="cluster-select" class="text-indigo-300 font-semibold">Select Cluster:</label>
+            <select id="cluster-select" class="p-2 border rounded-lg bg-gray-800 text-white">
+                {% for cluster in clusters %}
+                    <option value="{{ cluster }}">{{ cluster }}</option>
+                {% endfor %}
+            </select>
+        </div>
+        <!-- Chat Area -->
+        <div id="chat-container" class="flex-1 overflow-y-auto space-y-4">
+            <!-- Messages will be appended here -->
+        </div>
+        <!-- Input Area -->
+        <div class="input-area">
+            <div class="flex space-x-3">
+                <input id="user-input" type="text" placeholder="Ask about Kubernetes or type a command..." class="flex-1 p-3 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500">
+                <button id="send-btn" class="text-white px-5 py-3 rounded-lg hover:bg-blue-800">Send</button>
+                <button id="history-btn" class="text-white px-5 py-3 rounded-lg bg-gray-600 hover:bg-gray-700">History</button>
+            </div>
+        </div>
+        <!-- Command History Popup -->
+        <div id="history-popup" class="history-popup hidden">
+            <div class="history-content">
+                <h2 class="text-lg font-semibold text-indigo-300">Command History</h2>
+                <button id="close-popup" class="close-btn">×</button>
+                <div id="command-history" class="mt-2 text-sm text-gray-400"></div>
+            </div>
+        </div>
+    </div>
+    <script src="/static/script.js"></script>
+</body>
+</html>

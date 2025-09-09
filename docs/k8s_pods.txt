@@ -1,0 +1,4 @@
+Kubernetes Pods
+A Pod is the smallest deployable unit in Kubernetes. It can contain one or more containers that share the same network and storage.
+To list pods: kubectl get pods -n <namespace>
+To describe a pod: kubectl describe pod <pod-name> -n <namespace>

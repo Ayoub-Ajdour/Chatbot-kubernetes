@@ -1,0 +1,12 @@
+Query: show me the pods
+Command: kubectl get pods
+Query: get all pods in the codep-orange namespace
+Command: kubectl get pods -n codep-orange
+Query: delete the pod named my-pod-123
+Command: kubectl delete pod my-pod-123
+Query: how do I scale a deployment?
+Command: kubectl scale deployment my-deployment --replicas=3
+Query: what are the services in the default namespace
+Command: kubectl get svc -n default
+Query: view logs for pod jenkins-orange-65659745d5-4sprj in namespace codep-orange
+Command: kubectl logs jenkins-orange-65659745d5-4sprj -n codep-orange
